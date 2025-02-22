@@ -1,0 +1,1471 @@
+{
+	"Shadowrun6ActorSheetNPC": "Bla",
+	"shadowrun6-eden.Shadowrun6ActorSheetNPC": "Blubb",
+  "SYSTEM": {
+    "Sidebar": {
+      "readme": "README",
+      "bugs": "Report Bug",
+      "feature": "Požadavek na funkcionalitu"
+    }
+  },
+  "ACTOR": {
+    "TypeCritter": "Nestvůra",
+    "TypeNpc": "Grunt/NP",
+    "TypePlayer": "Hráčská postava",
+    "TypeSpirit": "Duch",
+    "TypeVehicle": "Dopravní prostředek/Dron"
+  },
+  "ITEM": {
+    "TypeAdeptpower": "Adeptská Síla",
+    "TypeCritterpower": "Síla parazvířete",
+    "TypeComplexform": "Komplexní forma",
+    "TypeContact" : "Kontakt",
+    "TypeEcho": "Echo",
+    "TypeGear": "Vybavení",
+    "TypeLifestyle" : "Životní styl",
+    "TypeMartialartstyle": "Styl bojového umění",
+    "TypeMartialarttech": "Technika bojového umění",
+    "TypeMetamagic": "Metamagie",
+    "TypeQuality": "Kvalita",
+    "TypeRitual": "Rituál",
+    "TypeSin" : "SIN",
+    "TypeSkill": "Jazyková/Znalostní dovednost",
+    "TypeSpell": "Kouzlo",
+    "TypeWeapon": "Zbraň"
+  },
+  "QUALITY_CATEGORIES": {
+    "ADVANTAGE": "Pozitivní",
+    "DISADVANTAGE": "Negativní"
+  },
+  "TYPES":{
+  		"Actor": {
+    		"Critter": "Nestvůra",
+    		"NPC": "Grunt/NP",
+    		"Player": "Hráčská postava",
+    		"Spirit": "Duch",
+    		"Vehicle": "Dopravní prostředek/Dron"
+  		},
+  		"Item": {
+    		"adeptpower": "Adeptská Síla",
+    		"critterpower": "Síla parazvířete",
+    		"complexform": "Komplexní forma",
+    		"contact" : "Kontakt",
+    		"echo": "Echo",
+        "focus": "Ohnisko",
+    		"gear": "Vybavení",
+    		"lifestyle" : "Životní styl",
+    		"martialartstyle": "Styl bojového umění",
+    		"martialarttech": "Technika bojového umění",
+    		"metamagic": "Metamagie",
+    		"quality": "Kvalita",
+    		"ritual": "Rituál",
+    		"sin" : "SIN",
+    		"skill": "Jazyková/Znalostní dovednost",
+        "software": "Program",
+    		"spell": "Kouzlo",
+    		"weapon": "Zbraň"
+  	}
+  },
+  "attrib": {
+    "agi": "Obratnost",
+    "agi_short": "O",
+    "bod": "Tělo",
+    "bod_short": "T",
+    "cha": "Charisma",
+    "cha_short": "CH",
+    "dr": "Hodnocení obrany",
+    "dr_short": "HO",
+    "edg": "Hrana",
+    "edg_short": "HR",
+    "ess": "Esence",
+    "ess_short": "E",
+    "ini": "Iniciativa",
+    "ini_short": "INI",
+    "inia": "Astrální iniciativa",
+    "inia_short": "A.INI",
+    "inim": "Matrixová iniciativa",
+    "inim_short": "M.INI",
+    "int": "Intuice",
+    "int_short": "I",
+    "log": "Logika",
+    "log_short": "L",
+    "mag": "Magie",
+    "mag_short": "M",
+    "rea": "Reakce",
+    "rea_short": "R",
+    "res": "Rezonance",
+    "res_short": "RES",
+    "str": "Síla",
+    "str_short": "S",
+    "wil": "Vůle",
+    "wil_short": "V"
+  },
+  "label.skill": "Dovednost",
+  "section.attributes": "Atributy",
+  "shadowrun6": {
+    "actor": {
+      "actions": "Akce",
+      "actions_major": "Hlavní",
+      "actions_minor": "Menší",
+      "editable": "Editovatelné",
+      "initiative": "Iniciativa",
+      "initiative_astral": "Astrální iniciativa",
+      "metatype": "Metarasa",
+      "name": "Jméno",
+      "nav": {
+        "basics": "Základy",
+        "biography": "Biografie",
+        "combat": "Boj",
+        "description": "Popis",
+        "equip": "Vybavení",
+        "input": "Vstup",
+        "magic": "Magie",
+        "matrix": "Matrix",
+        "overview": "Přehled",
+        "skills": "Dovednosti",
+        "vehicles": "Dopravní prostředky"
+      },
+      "skills": "Dovednosti",
+      "spells": "Kouzla"
+    },
+    "adeptpower": {
+      "activation": "Aktivace",
+      "activation_major": "Hlavní akce",
+      "activation_minor": "Menší akce",
+      "activation_passive": "Pasivní",
+      "cost": "Cena",
+      "haslevel": "Má úroveň",
+      "pp": "PP",
+      "perLevel": "za úroveň"
+    },
+    "autosoft_types": {
+      "clearsight": "Snímání", 
+      "electronic_warfare": "Elektronická válka", 
+      "evasion": "Uhýbání", 
+      "maneuver": "Manévrování", 
+      "stealth": "Infiltrace", 
+      "targeting": "Zaměřování"
+    },
+	 "critterpower": {
+		"actiontitle": "Akce",
+		"action": {
+			"auto": "Automatická",
+			"major": "Hlavní",
+			"minor": "Menší"
+	  }
+	 },
+    "attack_rating": {
+      "astral": "Hodnocení magic. útoku",
+      "matrix": "Hodnocení matrix. útoku",
+      "physical": "Hodnocení fyz. útoku",
+      "social": "Hodnocení soc. útoku",
+      "vehicle": "Hodnocení útoku dopravního prostředku"
+    },
+    "combat": {
+		"togglePhysical": "Použít fyzickou iniciativu",
+		"toggleMatrix": "Použít matrixovou iniciativu",
+		"toggleAstral": "Použít astrální iniciativu"
+	},
+    "complexform": {
+      "duration": "Doba trvání",
+      "fading": "Hodnota Blednutí",
+      "oppAttr1": "1. opozitní atribut",
+      "oppAttr2": "2. opozitní atribut",
+      "skill": "Dovednost",
+      "threshold": "Práh"
+    },
+    "contact": {
+      "rating_short": "Hodn.",
+      "rating": "Hodnocení",
+      "loyalty": "Loajalita",
+      "loyalty_short": "Loa.",
+      "favors": "Konexe",
+      "favors_short": "Kon.",
+      "type": "Typ"
+    },
+    "defense": {
+      "astral": "Astrální boj",
+      "drain": "Odolání Odlivu",
+      "fading": "Odolání Blednutí",
+      "damage_astral": "Odolání astrálnímu poškození",
+      "damage_physical": "Odolání fyzickému poškození",
+      "physical": "Útoky",
+      "spells_direct": "Přímá kouzla",
+      "spells_indirect": "Nepřímá kouzla",
+      "spells_other": "Ostatní kouzla",
+      "toxin": "Odolání toxinům"
+    },
+    "defense_rating": {
+	   "label":  "Hodnocení obrany",
+      "astral": "Hodnocení magic. obrany",
+      "matrix": "Hodnocení matrix. obrany",
+      "physical": "Hodnocení fyz. obrany",
+      "social": "Hodnocení soc. obrany",
+      "vehicle": "Hodnocení obrany dopravního prostředku"
+    },
+    "derived": {
+      "composure": "Zhroucení se",
+      "defense_rating": "Hodnocení obrany",
+      "judge_intentions": "Odhad lidí",
+      "lift_carry": "Zvedání/Nošení",
+      "memory": "Paměť",
+      "matrix_perception": "Matrixové vnímání",
+      "heal": {
+          "physical": "Léčení fyzické",
+          "stun": "Léčení omráčení"
+      }
+    },
+    "edge_action": {
+      "anticipation": "Předvídání",
+      "big_speech": "Velká řeč",
+      "bring_the_drama": "Dramatický výstup",
+      "called_shot_disarm": "Zacílit a odzbrojit",
+      "called_shot_vitals": "Zacílit a zranit",
+      "fire_from_cover": "Střílet z krytu",
+      "knockout_blow": "Rychlý knokaut",
+      "shank": "Přesné seknutí"
+    },
+    "edge_boost": {
+      "add_edge_pool": "Přidej Hranu ke svému fondu kostek",
+      "buy_auto_hit": "Kup jeden automatický úspěch",
+      "count_2_glitch": "Počítej dvojky cíle coby jedničky",
+      "create_special": "Vytvoř speciální efekt",
+      "edge_action": "Akce Hrany - (1-5)",
+      "give_ally_1_edge": "Předej spojenci 1 Hranu",
+      "heal_1_physic": "Vyléč 1 bod fyzického poškození",
+      "heal_1_stun": "Vyléč 1 bod omráčení",
+      "negate_1_edge": "Zruš 1 Hranu protivníka",
+      "plus_1_roll": "+1 k jednomu hodu",
+      "plus_3_ini": "Přidej +3 k iniciativě",
+      "reroll_failed": "Přehoď všechny neúspěšné kostky",
+      "reroll_one": "Přehoď jednu kostku"
+    },
+    "gear": {
+      "subtype": {
+        "ACCESSORY": "Příslušenství",
+        "AMMUNITION": "Munice",
+        "ARMOR_BODY": "Pancíř",
+        "ARMOR_SOCIAL": "Pancéřované oblečení",
+        "ARMOR_CLOTHES": "Běžné oblečení",
+        "ARMOR_HELMET": "Přilba",
+        "ARMOR_SHIELD": "Štít",
+        "ASSAULT_CANNON": "Útočný kanón",
+        "ATVS": "Čtyřkolka",
+        "AUDIO": "Zvukové zařízení",
+        "AUDIO_ENHANCEMENT": "Vylepšení sluchu",
+        "BIKES": "Motorka",
+        "BIOTECH": "Biotechnologie",
+        "BIOWARE_COSMETICS": "Kosmetický bioware",
+        "BIOWARE_CULTURED": "Kultivovaný bioware",
+        "BIOWARE_STANDARD": "Běžný bioware",
+        "BIOWARE_IMPLANT_WEAPON": "Zbraňový bioimplantát",
+        "BLADES": "Čepel",
+        "BOATS": "Loď",
+        "BOWS": "Luk",
+        "BREAKING": "Vybavení na úniky a vloupání",
+        "BTL": "BTL",
+        "CANNONS_LAUNCHERS": "Kanón / Odpalovač",
+        "CARS": "Auto",
+        "CLOSE_COMBAT": "Boj na blízko",
+        "CLUBS": "Palice",
+        "COMMLINK": "Komlink",
+        "COMMUNICATION": "Komunikace a protiopatření",
+        "CROSSBOWS": "Kuše",
+        "CYBER_BODYWARE": "Bodyware",
+        "CYBER_COSMETICS": "Kosmetický kyberware",
+        "CYBER_EARWARE": "Earware",
+        "CYBER_EYEWARE": "Eyeware",
+        "CYBER_HEADWARE": "Headware",
+        "CYBER_IMPLANT_WEAPON": "Zbraňový kyberimplantát",
+        "CYBER_LIMB_ACCESSORY": "Příslušenství kyberkončetin",
+        "CYBER_LIMB_ENHANCEMENT": "Vylepšení kyberkončetin",
+        "CYBER_LIMBS": "Kyberkončetina",
+        "CYBERDECK": "Kyberdeck",
+        "CYBERJACK": "Kyberjack",
+        "DRUGS": "Droga",
+        "ELECTRONIC_ACCESSORIES": "Příslušenství elektroniky",
+        "EXPLOSIVES": "Výbušnina",
+        "FIREARMS": "Střelná zbraň",
+        "FIREARMS_ACCESSORY": "Příslušenství zbraní",
+        "FIXED_WING": "Letadlo s pevnými křídly",
+        "FOCI_ENCHANTING": "Zaklínací ohnisko",
+        "FOCI_METAMAGIC": "Metamagické ohnisko",
+        "FOCI_POWER": "Silové ohnisko",
+        "FOCI_QI": "Ohnisko čchi",
+        "FOCI_SPELL": "Ohnisko kouzel",
+        "FOCI_SPIRIT": "Spirituální ohnisko",
+        "FOCI_WEAPON": "Zbrojní ohnisko",
+        "GENOM_CHANGES": "Genetická změna",
+        "EXOTIC_METAGENETICS": "Exotická metagenetika",
+        "MICRO_ENVIRONADAPT": "Mikro-environmentální adaptace",
+        "COMPLEMENTAL_GENETICS": "Doplňková genetika",
+        "GRAPPLE_GUN": "Drapák",
+        "GRAV": "Gravitační dopravní prostředek",
+        "GRENADES": "Granát",
+        "GRENADES_MINI": "Minigranát",
+        "HOLDOUTS": "Příruční pistole",
+        "HOVERCRAFT": "Vznášedlo",
+        "ID_CREDIT": "Identifikační karta / Kreditní čip",
+        "IMAGING": "Zobrazovací zařízení",
+        "INDUSTRIAL_CHEMICALS": "Průmyslová chemikálie",
+        "INSTRUMENT": "Nástroj",
+        "INSTRUMENT_ACCESSORY": "Příslušenství nástrojů",
+		  "LARGE_DRONES": "Velký dron",
+        "LAUNCHERS": "Odpalovač",
+        "LAV": "Koleoptera (vektorový tah)",
+        "LTAV": "Vzducholoď",
+        "LIVING_PERSONA": "Živá persona",
+        "MACHINE_GUNS": "Kulomet",
+        "MACHINE_PISTOLS": "Samopal",
+        "MAGICAL_FORMULA": "Magická formule",
+        "MAGIC_SUPPLIES": "Magické zboží",
+			"MICRODRONES": "Mikrodron",
+			"MINIDRONES": "Minidron",
+			"MEDIUM_DRONES": "Střední dron",
+        "PREPARATION": "Přípravy",
+        "PREPARATION_EXTENDED": "Přípravy (rozšířená účinnost)",
+        "MISSILES": "Řízená střela",
+        "MODIFICATION": "Modifikace",
+        "MOD_LAYOUT": "Úpravy karoserie",
+        "MOD_CORE": "Úpravy jádra",
+        "MOD_TIRES": "Pneumatiky",
+        "MOD_HANDLING": "Úpravy Ovládání",
+        "MOD_TRAILER": "Přívěsy a postranní vozíky",
+        "MOD_INTERIOR": "Úpravy sedadel a nákladového prostoru",
+        "MOD_CARGO": "Úpravy objemu nákladu",
+        "MOD_FORM": "Forma",
+        "MOD_ARMOR": "Pancíř",
+        "MOD_ELEMENTS": "Prvky",
+        "MOD_ACC": "Úpravy akcelerace",
+        "MOD_EFFICIENCY": "Úpravy efektivity",
+        "MOD_SPEED": "Úpravy rychlosti",
+        "MOD_COAT": "Elektronické povrchové vrstvy",
+        "MOD_MISC": "Různé elektronické úpravy",
+        "MOD_PILOT": "Úpravy autopilota",
+        "MOD_MOUNT": "Nosič zbraní",
+        "MOD_RACK": "Držák dronů",
+        "MOD_OTHERS": "Další úpravy nosičů",
+        "MOD_PROPULSION": "Sekundární pohonné systémy",
+        "NANOWARE_HARD": "Hardwarový Nanoware-Systém",
+        "NANOWARE_SOFT": "Softwarový Nanoware-Systém",
+        "NANO_CYBERWARE": "Nanokyberware",
+        "NANOTECH_EQUIPMENT": "Nanotechnologické vybavení",
+        "OPTICAL": "Optika",
+        "OTHER_PROGRAMS": "Další programy",
+        "OTHER_CLOSE": "Další zbraně na blízko",
+        "OTHER_SPECIAL": "Speciální zbraň",
+        "PISTOLS_HEAVY": "Těžká pistole",
+        "PISTOLS_LIGHT": "Lehká pistole",
+        "PROJECTILES": "Projektilová zbraň",
+        "RFID": "RFID",
+        "#RIFLES": "Puška",
+        "RIFLE_ASSAULT": "Útočná puška",
+        "RIFLE_HUNTING": "Lovecká puška",
+        "RIFLE_SNIPER": "Odstřelovací puška",
+        "RIGGER_CONSOLE": "Riggerská konzole",
+        "ROCKETS": "Raketa",
+        "ROTORCRAFT": "Vrtulník",
+        "SECURITY": "Bezpečnost",
+        "SENSOR": "Senzor",
+        "SENSOR_HOUSING": "Umístění senzorů",
+        "SHOTGUNS": "Brokovnice",
+        "SKILLSOFT": "Dovednostní program",
+        "SLAP_PATCHES": "Derm",
+        "SMALL_DRONES": "Malý dron",
+        "SNIPER_RIFLES": "Odstřelovací pušky",
+        "SOFTWARE": "Software",
+        "SPACECRAFT": "Kosmická loď",
+        "SPECIAL_WEAPONS": "Speciální zbraň",
+        "SUBMACHINE_GUNS": "Samopal",
+        "SUBMARINES": "Ponorka",
+        "SURVIVAL_GEAR": "Vybavení pro přežití",
+        "SYMBIONTS": "Symbionti",
+        "TAC_NET": "Taktická síť",
+        "TASERS": "Taser",
+        "THROWERS": "Vrhač",
+        "THROWING": "Vrhací zbraň",
+        "TRANSGENETICS": "Transgenetika",
+        "TACNET_PROGRAM": "Taktický síťový program",
+        "TOOLS": "Nástroje",
+        "PLACEHOLDERS": "Standardní zboží",
+        "TOXINS": "Toxin",
+        "TRUCKS": "Pickup",
+        "TRACKED": "Pásové vozidlo",
+        "SPECIAL_VEHICLES": "Speciální vozidlo",
+        "UNARMED": "Boj beze zbraně",
+        "VANS": "Dodávka / Nákladní vůz",
+        "VEHICLE_ACCESSORY": "Příslušenství dopravních prostředků",
+        "VISION_ENHANCEMENT": "Vylepšení vidění",
+        "VTOL": "VTOL / VSTOL",
+        "WALKER": "Kráčedlo",
+        "WEAPON_SECURITY": "Bezpečnostní možnosti zbraní",
+        "WHIPS": "Bič",
+        "LMG": "Lehký kulomet",
+        "MMG": "Střední kulomet",
+        "HMG": "Těžký kulomet",
+        "HACKING_PROGRAM": "Hackovací program",
+        "BASIC_PROGRAM": "Základní program",
+        "RIGGER_PROGRAM": "Riggerský program",
+        "AUTOSOFT": "Autosoft",
+        "DATASOFT": "Datasoft",
+        "MAPSOFT": "Mapový program",
+        "SHOPSOFT": "Nákupní program",
+        "TALENTSOFT": "Talentový program",
+        "TEACHSOFT": "Výukový program",
+        "GROUND": "Pozemní dron",
+        "ANTHRO": "Antropoidní dron",
+        "AIR": "Letecký dron",
+        "AQUATIC": "Vodní dron",
+        "AMMO_TASER": "Taserová munice",
+        "AMMO_LIGHT": "Příruční pistole / Lehké pistole / Automatické pistole",
+        "AMMO_HEAVY": "Těžké pistole / Samopaly",
+        "AMMO_RIFLES": "Munice pro pušky",
+        "AMMO_DARTS": "Injekční šipka",
+        "AMMO_CANNONS": "Munice pro útočné kanóny",
+        "AMMO_DMSO": "DMSO-gelový balíček",
+        "AMMO_MACHINE_GUN": "Munice pro kulomety",
+        "AMMO_INJECTION_BOLT": "Injekční šipka",
+        "AMMO_BOLT": "Šipka"
+      }
+    },
+    "initiative": {
+      "astral"  : "Astrální",
+      "physical": "Fyzická",
+      "matrix"  : "Matrixová"
+    },
+    "item": {
+      "accessories": "Příslušenství",
+      "strWeapon": "Využívá Sílu",
+      "ammunition": "Munice",
+      "attackvalues": "Hodnocení útoku",
+      "availability": "Dostupnost",
+      "capacity": "Kapacita",
+      "category": "Kategorie",
+      "damage": "Poškození",
+      "defencerating": "Hodnocení obrany",
+      "description": "Popis",
+      "essence": "Esence",
+      "feature": "Vlastnosti",
+      "firemode": {
+        "SS": "Jednotlivé výstřely",
+        "SA": "Poloautomat",
+        "BF": "Dávka",
+        "FA": "Plný automat"
+      },
+      "mastyle": {
+        "category": {
+          "grappling": "Chvaty",
+          "mobility": "Pohyblivost",
+          "ranged"  : "Boj na dálku",
+          "striking": "Údery",
+          "weapon": "Zbraně"
+        }
+      },
+      "mode": "Režimy",
+      "mode_ss": "JV",
+      "mode_sa": "PA",
+      "mode_bf": "D",
+      "mode_fa": "A",
+      "mode_fa_1m": "Poloměr 1m",
+      "mode_fa_2m": "Poloměr 2m",
+      "mode_fa_3m": "Poloměr 3m",
+      "mode_fa_4m": "Poloměr 4m",
+      "mode_fa_5m": "Poloměr 5m",
+      "mode_fa_6m": "Poloměr 6m",
+      "natural": "Přirozený pancíř",
+      "physical_damage": "F",
+      "physical_special_damage": "Spec.F",
+      "price": "Cena",
+      "skill": "Dovednost",
+      "skillspec": "Specializace",
+      "social": "Sociální",
+      "stun_damage": "O",
+      "subtype": "Podtyp",
+      "type": "Typ",
+      "vehicle": {
+        "armor.long": "Pancíř",
+        "armor.short": "Pan.",
+        "rigRating.long": "Kontrolní rig",
+        "sensor.long": "Senzor",
+        "sensor.short": "Sen."
+      }
+    },
+    "itemtype": {
+      "ACCESSORY": "Příslušenství",
+      "AMMUNITION": "Munice",
+      "ARMOR": "Pancíř",
+      "ARMOR_ADDITION": "Modifikace pancéřování",
+      "BIOLOGY": "Biotechnologie",
+      "BIOWARE": "Bioware",
+      "CHEMICALS": "Chemikálie",
+      "CYBERWARE": "Kyberware",
+      "DRONES": "Dron",
+      "ELECTRONICS": "Elektronika",
+      "GENETICS": "Geneware",
+      "MAGICAL": "Magické zboží",
+      "NANOWARE": "Nanoware",
+      "SOFTWARE": "Software",
+      "SURVIVAL": "Vybavení pro přežití",
+      "TOOLS": "Nástroj",
+      "VEHICLES": "Dopravní prostředek",
+      "WEAPON_CLOSE_COMBAT": "Zbraň, boj na blízko",
+      "WEAPON_FIREARMS": "Zbraň, střelná",
+      "WEAPON_RANGED": "Zbraň, projektilová",
+      "WEAPON_SPECIAL": "Zbraň, speciální"
+    },
+    "label": {
+      "accessories": "Příslušenství",
+      "adepts": "Adepti",
+      "action": "Akce",
+      "actionduration": {
+        "minor.short": "Me.",
+        "major.short": "Hl."
+      },
+      "attack_rating": "Hodnocení útoku",
+      "attack_rating_short": "HÚ",
+      "attack_rating_using_vehicle": "Hodnocení útoku (dopravní prostředek jako zbraň)",
+      "attribute": "Atribut",
+      "base": "Základ",
+      "belongs_to": "Patří k",
+      "column": {
+        "action": "Akce",
+        "count": "#",
+        "name": "Název",
+        "nameAnimate": "Název",
+        "rating": "Hodnocení"
+      },
+      "attack.short": "Út.",
+      "attack.long": "Útok",
+      "sleaze.short": "Mask.",
+      "sleaze.long": "Maskování",
+      "dataproc.short": "Zp.D.",
+      "dataproc.long": "Zpracování dat",
+      "firewall.short": "Fire.",
+      "firewall.long": "Firewall",
+      "devicerating.short": "Hodn.Z.",
+      "devicerating.long": "Hodnocení zařízení",
+      "d6": "K6",
+      "damage": "Poškození",
+      "damage_short": "Pošk.",
+      "defense": "Obrana",
+      "defense_against": "Obrana proti",
+      "defense_rating": "Hodnocení obrany",
+      "delete": "Odstranit",
+      "device_mode": "Režim zařízení",
+      "devRating": "Hodnocení zařízení",
+      "dice": "Kostky",
+      "edit": "Upravit",
+      "expertise": "Odbornost",
+      "extended_test": "Rozšířený test",
+      "faster": "Zrychlit",
+      "features": "Vlastnosti",
+      "firemode_current": "Aktuální režim střelby",
+      "firemodes": "Režimy střelby",
+      "force": "Síla",
+      "gender": "Pohlaví",
+      "legality.illegal.short": "Il.",
+      "legality.legal.short": "L.",
+      "level": "Má úrovně",
+      "mages": "Kouzelníci",
+      "matrixMonitor": "Matrixový záznamník",
+      "max": "Maximum",
+      "mode_of_operation": "Režim operace",
+      "modifications": "Modifikace",
+      "modifier": "Modifikátor",
+      "name": "Název",
+      "none": "-",
+      "not_present": "není přítomen",
+      "offroad": "Off-Road",
+      "onroad": "On-Road",
+      "points": "Body",
+      "pool": "Fond",
+      "poolmod": "Modifikátor fondu",
+      "programs.short": "Sl.P.",
+      "progSlots": "Sloty aktivních programů",
+      "rating": "Hodnocení",
+      "rating1": "Hodnocení 1",
+      "rating2": "Hodnocení 2",
+      "rating3": "Hodnocení 3",
+      "slower": "Zpomalit",
+      "soaked": "Pohlceno {soaked} z {threshold} poškození",
+      "specialization": "Specializace",
+      "speed_detail": "Pohybuješ se rychlostí {speed} km/h ({speedPerTurn} metrů za kolo). Tvůj modifikátor testů je {modifier}.",
+      "threshold": "Práh",
+      "type": "Typ",
+      "value": "Hodnota",
+      "wilddie": "Divoká kostka"
+    },
+    "lifestyle": {
+      "cost" : "Cena",
+      "paid": "Zaplaceno",
+      "type": "Typ",
+      "sin": "Přiřazený SIN",
+      "street" : "Ulice",
+      "squatter" : "Squatter",
+      "low" : "Nízký",
+      "middle" : "Střední",
+      "high" : "Vysoký",
+      "luxury" : "Luxusní"
+    },
+    "matrixaction": {
+      "backdoor_entry": "Zadní vrátka",
+      "brute_force": "Brutálně hackovat",
+      "change_icon": "Změnit ikonu",
+      "check_os": "Zkontrolovat OD",
+      "control_device": "Kontrolovat zařízení",
+      "crack_file": "Cracknout soubor",
+      "crash_program": "Shodit program",
+      "data_spike": "Datový šíp",
+      "disarm_data_bomb": "Odstranit datovou bombu",
+      "edit_file": "Upravit soubor",
+      "encrypt_file": "Zašifrovat soubor",
+      "enter_host": "Vstoupit do sítě",
+      "erase_matrix_signature": "Vymazat matrixovou signaturu",
+      "format_device": "Formátovat zařízení",
+      "full_matrix_defense": "Plná matrixová obrana",
+      "hash_check": "Hashové vyhledávání",
+      "hide": "Skrýt se",
+      "jack_out": "Odpojit se",
+      "jam_signals": "Rušit signál",
+      "jump_rigged": "Skočit do riggovaného zařízení",
+      "matrix_perception": "Matrixové vnímání",
+      "matrix_search": "Matrixové vyhledávání",
+      "probe": "Sondovat",
+      "reboot_device": "Restartovat zařízení",
+      "reconfigure": "Změnit matrixové atributy",
+      "send_message": "Poslat zprávu",
+      "set_data_bomb": "Nastavit datovou bombu",
+      "snoop": "Špehovat",
+      "spoof_command": "Napodobit příkaz",
+      "switch_ifmode": "Změnit režim",
+      "tarpit": "Ochromit",
+      "trace_icon": "Stopovat ikonu"
+    },
+    "matrixini": {
+			"ar": "AR",
+			"vrcold": "VR",
+			"vrhot": "VR Hot"
+	   },
+    "monitor": {
+		  "matrix": "Matrixový",
+      "physical": "Fyzický",
+      "stun": "Omráčení",
+      "overflow": "Přetečení"
+    },
+    "mortype": {
+      "adept": "Adept",
+      "aspectedmagician": "Aspektový kouzelník",
+      "magician": "Plnohodnotný kouzelník",
+      "mundane": "Světská osoba",
+      "mysticadept": "Mystický adept",
+      "technomancer": "Technomant"
+    },
+    "newitem": {
+      "adeptpower": "Pojmenuj svou MOC!",
+      "accessory": "Lesklý skleněný věcičky",
+      "ammunition": "Žhavá munice",
+      "armor": "Něco trendy na sebe",
+      "armor_addition": "Tvůj kabát potřebuje nášivku!",
+      "biology": "Biohazard!",
+      "bodyware": "Brutální břišáky",
+      "chemicals": "Fakt dobrý zboží",
+      "complexform": "Jak složitý to chceš?",
+      "contact": "Koho zavoláš? Krotitele duchů!",
+      "critterpower": "Co je na tom pejskovi tak zvláštního?",
+      "cyberware": "Nějaká cool kybernetika",
+      "drones": "Moje lítající oko",
+      "echo": "Echooooooo",
+      "electronics": "Hračky pro nerdy",
+      "genetics": "Každej bych chtěl modrý oči...",
+      "focus": "Něco na soustředění",
+      "lifestyle": "Je libo popelnice, nebo apartmá?",
+      "magical": "Magický peříčka",
+      "martialartstyle": "Jakej je tvůj styl?",
+      "martialarttech": "Technika? Jaká technika?",
+      "matrix": "Mrkni na můj deck!",
+      "rcc": "Minion Dominator X2000",
+      "metamagic": "Metamojo",
+      "nanoware": "Sedm nebo devět malejch stroječků",
+      "quality": "Co jsi zač?",
+      "ritual": "Zpívání Hallelujah",
+      "sin": "Kdo jseš? Kdo, kdo, kdo, kdo...",
+      "skill": {
+        "knowledge": "Jaký je tvoje nerdovský téma?",
+        "language": "Hatmatilka"
+      },
+      "spell": "Abrakadabra",
+      "software": "Nějakej spam",
+      "survival": "Šikovnej švýcarskej nožík",
+      "tools": "Tvoje nejoblíbenější hračka?",
+      "vehicles": "Úžasná jízda",
+      "weapon": "Taky si pojmenováš svoje zbraně?",
+      "weaponclose": "Něco těžkýho do ruky...",
+      "weaponspecial": "Divná zbraň"
+    },
+    "npc": {
+      "subtype": {
+        "npc": "NP",
+        "critter": "Nestvůra",
+        "spirit": "Duch",
+        "sprite": "Sprit"
+      },
+      "gruntrules": "Používá pravidla pro grunty",
+      "mortype": "Magie/Rezonance"
+    },
+    "numerical": {
+      "base": "základ",
+      "baseString": "Základní hodnota",
+      "max": "Max",
+      "mod": "Mod."
+    },
+    "programtype": {
+      "basic": "Základní programy",
+      "hacking": "Hackovací programy"
+	},
+    "program": {
+    "baby_monitor": {
+      "name": "Chůvička",
+      "desc": "Ukáže ti tvé aktuální skóre odpočetu dopadení bez potřeby akce."
+    },
+    "browse": {
+      "name": "Vyhledávačč",
+      "desc": "Při provádění ´matrixového vyhledávání´ získáš 1 Hranu, kterou musíš okamžitě utratit, jiank zmizí."
+    },
+    "configurator": {
+      "name": "Konfigurátor",
+      "desc": "Uložíš si alternativní konfiguraci decku a přepneš na ni, místo změny jen dvou atributů."
+    },
+    "edit": {
+      "name": "Editor",
+      "desc": "Při provádění akce ´upravit soubor´ získáš 1 Hranu, kterou musíš okamžitě utratit, jiank zmizí."
+    },
+    "encryption": {
+      "name": "Šifrovač",
+      "desc": "+2 kostky na provádění akce ´zašifrovat soubor´."
+    },
+    "signal_scrubber": {
+      "name": "Posilovač signálu",
+      "desc": "Sníží úroveň šumu o 2."
+    },
+    "toolbox": {
+      "name": "Uživatelské nástroje",
+      "desc": "+1 ke Zpracování dat."
+    },
+    "virtual_machine": {
+      "name": "Virtuální mašina",
+      "desc": "2 programové sloty navíc; při útoku však utrpíš 1 extra bod neodolávaného matrixového poškození navíc."
+    },
+    "armor": {
+      "name": "Pancíř",
+      "desc": "+2 k Hodnocení obrany."
+    },
+    "biofeedback": {
+      "name": "Emulátor biologické zpětné vazby:",
+      "desc": "Matrixovým útokem způsobuje personě poškození omráčením (pokud je persona v režimu Cold-SIM), nebo fyzické poškození (je-li cíl v Hot-SIM). Tento program je propojen s atributem Útok."
+    },
+    "biofeedback_filter": {
+      "name": "Filtr biologické zpětné vazby",
+      "desc": "Umožňuje hod Hodnocením zařízení, nebo Tělem ke zmírnění matrixového poškození."
+    },
+    "blackout": {
+      "name": "Vyhazovač",
+      "desc": "Jako ´Emulátor biologické zpětné vazby´, ale způsobuje pouze omráčení. Tento program je propojen s atributem Útok."
+    },
+    "decryption": {
+      "name": "Dešifrovač",
+      "desc": "+ 2 kostky na akci ´cracknout soubor´."
+    },
+    "defuse": {
+      "name": "Clona",
+      "desc": "Povoluje použití Hodnocení zařízení, nebo Těla při hodu na odolávání datové bombě."
+    },
+    "exploit": {
+      "name": "Hledač chyb",
+      "desc": "Snižuje Hodnocení obrany hackovaného cíle o 2."
+    },
+    "fork": {
+      "name": "Vidlička",
+      "desc": "Zasáhne dva cíle jednou matrixovou akcí najednou bez nutnosti rozdělovat kostky."
+    },
+    "lockdown": {
+      "name": "Zamykač",
+      "desc": "Uzamkne spojení persony, které jsi způsobil matrixové poškození."
+    },
+    "overclock": {
+      "name": "Přetaktovač",
+      "desc": "Přidej k matrixové akci bonus dvě kostky. Jedna z nich však musí být divoká kostka."
+    },
+    "stealth": {
+      "name": "Utajovač",
+      "desc": "Při provádění matrixové akce ´skrýt se´ získáš 1 bod Hrany, který musíš okamžitě použít, jinak zmizí. Tento program je propojen s atributem Maskování."
+    },
+    "trace": {
+      "name": "Stopař",
+      "desc": "Při provádění akce ´stopovat ikonu´ získáš 1 bod Hrany, který musíš okamžitě použít, jinak zmizí. Tento program je propojen s atributem Maskování."
+      }
+    },
+    "qualityedit": {
+      "category": "Kategorie",
+    "description": "Popis",
+    "explain": "Vysvětlení",
+    "name": "Jméno",
+    "new": "Nový"
+  },
+  "ritualfeatures": {
+    "anchored": "Ukotvení",
+    "material_link": "Materiální spojení",
+    "minion": "Služebník",
+    "spell": "Kouzlo",
+    "spotter": "Pozorovatel"
+  },
+  "roll": {
+    "accumulated": "Nahromaděno",
+    "actionText": {
+      "attack_target_multiple": "Útok na více cílů pomocí {name}",
+      "attack_target_none": "Útok na cíl pomocí {name}",
+      "attack_target_one": "Útok na {target} pomocí {name}",
+      "cast_target_multiple": "Seslání {name} na více cílů",
+      "cast_target_none": "Seslání {name}",
+      "cast_target_one": "Seslání {name} na {target}",
+      "skill": "Proveď test dovednosti",
+      "thread": "Spřádání {name}",
+      "defense": {
+        "physical": "Obrana proti fyzickému útoku",
+        "spells_direct": "Obrana proti přímým bojovým kouzlům",
+        "spells_indirect": "Obrana proti nepřímým bojovým kouzlům"
+      },
+      "soak": {
+        "drain": "Odolávání {damage} Odlivu",
+        "fading": "Odolávání {damage} Blednutí",
+        "damage_phys": "Odolávání {damage} fyzickému poškození",
+        "damage_stun": "Odolávání {damage} poškození omráčením"
+      }
+    },
+    "apply_damage": "Aplikovat poškození",
+    "damage_applied": "Poškození aplikováno",
+    "damage_revert": "Neaplikovat poškození?",
+    "ar_0": "Blízký",
+    "ar_1": "Krátký",
+    "ar_2": "Střední",
+    "ar_3": "Dlouhý",
+    "ar_4": "Extrémní",
+    "attack": "Útok",
+    "attackRating": "Hodnocení útoku",
+    "bf_type": "Typ",
+    "bf": {
+      "narrow_burst": "Úzká dávka",
+      "wide_burst": "Široká dávka"
+    },
+    "button": {
+      "defense": "Hodit na obranu",
+      "drain": "Odolat Odlivu",
+      "soak": "Absorbovat poškození"
+      },
+      "configure": "Nastav svůj hod",
+      "wound-modifier": "Použít modifikátor zranění",
+      "sustained-spell-modifier": "Použít postih za udržovaní kouzla",
+      "criticalglitch": "Kritický krach",
+      "heal_apply": "Léčit",
+      "damage": "Poškození: ",
+      "damage_apply": "Aplikovat poškození",
+      "defRating": "Hodnocení obrany",
+      "edge": {
+        "gain_player": "{name} získává {value} Hrany",
+        "gain_player_capped": "{name} by získal {value} Výhody, ale nemůže získat více než {capped}",
+        "getting": "Získávání Hrany",
+        "no_gain": "Nikdo nezískává Hranu",
+        "situational": "Situacční Hrana",
+        "spending": "Utrácení Hrany"
+      },
+      "edge_perform": "Udělej to",
+      "edgegain": "Zisk Hrany (max): ",
+      "edgegain_player": " (Hráč)",
+      "exp": "Odbornost",
+      "explode": "Exploze",
+	   "fa_area": "Oblast",
+		"firemode": "Režim střelby",
+      "failure": "Neúspěch",
+      "failedDefense": "Byl(a) jsi zasažen(a) a teď to bude bolet",
+      "failedSoak"   : "Utrpěl(a) jsi zranění",
+      "glitch": "Krach",
+      "hits_bought": "Zakoupené úspěchy",
+      "hits": "úspěchů",
+      "mode": "Režim",
+      "modifier": "Modifikátor fondu",
+      "noedgegain": "Žádný zisk Hrany",
+      "nosuccess": "úspěchy, práh: ",
+      "notarget": "Nebyl vybrán žádný cíl",
+      "pool": "Zásobník",
+		"range": "Vzdálenost",
+      "spec": "Specializace",
+      "spell": {
+        "ampUp": {
+          "1": "Poškození +1 / Odliv +2",
+          "2": "Poškození +2 / Odliv +4",
+          "3": "Poškození +3 / Odliv +6",
+          "4": "Poškození +4 / Odliv +8",
+          "title": "Zesílení"
+        },
+        "incArea": {
+          "1": "Poloměr +2m / Odliv +1",
+          "2": "Poloměr +4m / Odliv +2",
+          "3": "Poloměr +6m / Odliv +3",
+          "4": "Poloměr +8m / Odliv +4",
+          "5": "Poloměr +10m / Odliv +6",
+          "6": "Poloměr +12m / Odliv +8",
+          "title": "Zvětšení oblasti"
+        },
+        "title": "Úprava kouzla"
+      },
+      "subject": "Zpráva v chatu",
+      "success": "Úspěch",
+      "successes": "úspěchy",
+      "netHits": "čisté úspěchy",
+      "successfulDefense": "Úspěšně ses vyhnul(a) zásahu",
+      "successfulSoak"   : "Podařilo se ti zvládnout poškození",
+      "target": "Cíl",
+      "threshold": "Práh",
+		"weapon":  "Definuj svůj útok",
+      "wilddie": "Použít divokou kostku",
+      "with": "s"
+    },
+    "rollType": {
+      "bought": "Koupit úspěchy",
+      "normal": "Hodit kostkami"
+    },
+    "section": {
+      "adeptpowers": {
+        "add": "Přidat novou Sílu",
+        "column.points": "bS",
+        "title": "Adeptské Síly"
+      },
+      "ammo": "Munice",
+      "ammo_add": "Přidat munici",
+      "armor": {
+        "add": "Přidat nový pancíř",
+        "column": {
+          "action": "Akce",
+          "defense": "HO",
+          "name": "Název",
+          "social": "Společenské"
+        },
+        "title": "Pancíře"
+      },
+      "armor_adds": "Modifikace pancíře",
+      "biology": "Biologie",
+      "bodyware": {
+        "add": "Přidat nový bioware či kyberware",
+        "column.capacity": "Kap.",
+        "column.essence": "Es.",
+        "footer.total_essence": "Zbývající Esence",
+        "title": "Augmentace"
+      },
+      "chemicals": "Chemikálie",
+      "complexforms": {
+        "add": "Přidat novou komplexní formu",
+        "column.duration": "Trv.",
+        "column.fade": "Blednutí",
+        "title": "Komplexní formy"
+      },
+      "contacts": {
+        "add": "Přidat nový kontakt",
+        "title": "Kontakty"
+      },
+      "critterpowers": {
+        "add": "Přidat Sílu nestvůry",
+        "title": "Síly"
+      },
+      "defense": "Obrany a odolávání",
+      "derived": "Odvozené hodnoty",
+      "drones": {
+        "add": "Přidat nový dron",
+        "title": "Drony"
+      },
+      "electronics": "Elektronika",
+      "echo": {
+        "add": "Přidat nové echo",
+        "title": "Echa"
+      },
+      "initiative": "Iniciativa",
+      "martialarts": {
+        "add": "Přidat nový styl",
+        "tech_add": "Přidat novou techniku",
+        "title": "Bojová umění"
+      },
+      "focus": {
+        "add": "Přidat nové ohnisko",
+        "column.rating": "Moc",
+        "title": "Ohniska"
+      },
+      "gear" : {
+        "add" : "Přidat nové vybavení",
+        "title" : "Vybavení"
+      },
+      "karma" : {
+        "title" : "Karma, Hledanost, Pověst",
+        "karma" : "Karma",
+        "heat"  : "Hledanost",
+        "reputation": "Pověst",
+        "total": "Celkem"
+      },
+      "lifestyles" : {
+        "add": "Přidat nový životní styl",
+        "title" : "Životní styly"
+      },
+      "magical": "Magické",
+      "matrix_base": {
+        "overwatch": "Dopadení"
+      },
+      "matrix_actions": {
+        "title": "Matrixové akce"
+      },
+      "matrix_combat": {
+        "title": "Matrixový boj"
+      },
+      "matrix_devices": {
+        "add": "Přidat nové matrixové zařízení",
+        "add_rcc": "Přidat novou riggerskou kontrolní konzoli",
+        "column": {
+          "action": "Akce",
+          "devRating": "Hodnocení zařízení",
+          "name": "Název"
+        },
+        "title": "Matrixová zařízení",
+        "title_rcc": "RKK"
+      },
+      "metamagic": {
+        "add": "Přidat novou metamagii",
+        "title": "Metamagie"
+      },
+		"notes": {
+			"title": "Poznámky"
+		},
+      "persona": {
+        "distribute": "Přidělit",
+        "title": "Persona"
+      },
+      "qualities": "Kvality",
+      "qualities_add": "Přidat",
+      "rigging": {
+        "title": "Riggování"
+      },
+      "rituals": {
+        "add": "Přidat nový rituál",
+        "column.threshold": "Práh",
+        "title": "Rituály"
+      },
+      "sins": {
+        "add": "Přidat nový SIN",
+        "title": "SINy"
+      },
+      "skills.action": "Dovednosti",
+      "skills.knowledge": "Znalostní dovednosti",
+      "skills.knowledge_add": "Přidat novou znalost",
+      "skills.language": "Jazykové dovednosti",
+      "skills.language-level": {
+        "expert": "Expert",
+        "native": "Rodilý mluvčí",
+        "normal": "Normální",
+        "special": "Specialista"
+      },
+      "skills.language_add": "Přidat novou jazykovou dovednost",
+      "software": {
+        "add": "Přidat nový software",
+        "title": "Software"
+      },
+      "spells": {
+        "add": "Přidat nové kouzlo",
+        "column.alchemic": "Alch.",
+        "column.drain": "Odliv",
+        "column.range": "Dosah",
+        "column.sustained": "Udrž.",
+        "title": "Kouzla"
+      },
+      "sustained": {
+        "add": "Přidat nové kouzlo",
+        "title": "Udržovaná kouzla"
+      },
+		"survival": "Přežití",
+      "vehicles": {
+        "add": "Přidat nový prostředek",
+		   "column": {
+				"handling": "Ovl.",
+				"acc": "Zr.",
+				"spdi": "Int.R.",
+				"tspd": "Rychl.",
+				"bod": "Tělo",
+				"arm": "Pancíř",
+				"pil": "Pilot",
+				"sen": "Senz.",
+				"sea": "Sed.",
+        "vtype": "Typ"
+			},
+        "title": "Dopravní prostředky"
+      },
+      "vehicleskills": {
+        "brain": "Elektronický mozek",
+				"operations": "Operace"
+	   },
+      "weapon": {
+        "add": "Přidat novou zbraň",
+        "close": "Boj na blízko",
+        "ranged": "Střelné zbraně",
+        "special": "Speciální zbraně",
+		    "title" : "Zbraně"
+      }
+    },
+    "settings": {
+      "maxEdgePerRound": {
+        "hint": "Definuje maximální počet Hranye, které hráč nebo NP mohou získat za kolo.",
+        "name": "Max. Hrany za kolo"
+      },
+      "importToCompendium": {
+        "hint": "Určuje, zda se importovaní NP mají přidávat jako aktéři, nebo jako záznamy do kompendia NP.",
+        "name": "Import do kompendia"
+      },
+      "defaultThreshold": {
+        "hint": "Definuje výchozí práh používaný pro jakýkoli test dovedností.",
+        "name": "Výchozí práh"
+      },
+      "hardDiceCap": {
+        "hint": "Ve standardní hře je maximální počet kostek pro jakýkoli test 20. Žádná kombinace schopností, dovedností, efektů, nebo augmentací nemůže tento limit během hodu překročit. Výjimka: Pokud je test předem podpořen Hranou, je možné přesáhnout hranici 20 kostek díky bonusovým kostkám z Hrany.",
+        "name": "Tvrdý limit kostek"
+      },
+      "bleeding": {
+        "hint": "Toto pravidlo se používá k reprezentaci pokračujícího poškození z vážných zranění. (SWC s.145)",
+        "name": "Krvácení"
+      }
+    },
+    "sin" : {
+      "quality" : "Kvalita",
+      "real_sin" : "Skutečný SIN",
+      "anyone" : "Náhodná shoda",
+      "rough_match" : "Hrubá shoda",
+      "good_match": "Dobrá shoda",
+      "superficially_plausible": "Povrchně věrohodný",
+      "highly_plausible" : "Vysoce věrohodný",
+      "second_life" : "Druhý život"
+    },
+    "softwareedit": {
+      "description": "Popis",
+      "category": "Kategorie",
+      "basic": "Základní",
+      "hacking": "Hackovací"
+    },
+    "special": {
+      "astral": {
+        "astral_combat": "Astrální boj",
+        "astral_signatures": "Astrální signatury",
+        "emotional_stress": "Emocionální stres",
+        "spirit_types": "Typy duchů"
+      },
+      "athletics": {
+        "archery": "Lukostřelba",
+        "climbing": "Lezení",
+        "flying": "Únik",
+        "free_fall": "Volný pád",
+        "gymnastics": "Gymnastika",
+        "sprinting": "Sprint",
+        "swimming": "Plavání",
+        "throwing": "Vrh"
+      },
+      "biotech": {
+        "biotechnology": "Biotechnologie",
+        "cybertechnology": "Kybertechnologie",
+        "first_aid": "První pomoc",
+        "medicine": "Lékařství"
+      },
+      "close_combat": {
+        "blades": "Čepele",
+        "clubs": "Palice",
+        "unarmed": "Boj beze zbraně"
+      },
+      "con": {
+        "acting": "Herectví",
+        "disguise": "Přestrojení",
+        "impersonation": "Napodobování",
+        "performance": "Umělecký výstup"
+      },
+      "conjuring": {
+        "banishing": "Vymítání",
+        "summoning": "Vyvolávání"
+      },
+      "cracking": {
+        "cybercombat": "Kyberneický boj",
+        "electronic_warfare": "Elektronická válka",
+        "hacking": "Hackování"
+      },
+      "electronics": {
+        "computer": "Počítače",
+        "hardware": "Hardware",
+        "software": "Software",
+        "complex_forms": "Komplexní formy"
+      },
+      "enchanting": {
+        "alchemy": "Alchymie",
+        "artificing": "Výroba artefaktů",
+        "disenchanting": "Odčarování"
+      },
+      "engineering": {
+        "aeronautics_mechanic": "Vzdušná mechanika",
+        "armorer": "Zbrojířtví",
+        "automotive_mechanic": "Mechanika pozemních dopravních prostředků",
+        "demolitions": "Výbušniny",
+        "gunnery": "Nepřímá střelba",
+        "industrial_mechanic": "Průmyslová mechanika",
+        "lockpicking": "Zámečnictví",
+        "nautical_mechanic": "Mechanika plavidel"
+      },
+      "exotic_weapons": {
+        "chainsaws": "Motorové pily",
+        "brawling": "Boj nazblízko",
+        "air": "Stlačený vzduch",
+        "emitter": "Energozbraně",
+        "laser": "Laserové zbraně",
+        "launchers": "Odpalovače",
+        "spray": "Rozprašovací zbraně",
+        "whips": "Biče",
+        "other": "Ostatní"
+      },
+      "firearms": {
+        "assault_cannons": "Útočné kanóny",
+        "holdouts": "Příruční pistole",
+        "machine_pistols": "Automatické pistole",
+        "pistols_heavy": "Těžké pistole",
+        "pistols_light": "Lehké pistole",
+        "rifles": "Pušky",
+        "shotguns": "Brokovnice",
+        "submachine_guns": "Samopaly",
+        "machine_guns": "Kulomety",
+        "tasers": "Tasery"
+      },
+      "influence": {
+        "etiquette": "Etiketa",
+        "instruction": "Výuka",
+        "intimidation": "Zastrašování",
+        "leadership": "Vůdcovství",
+        "negotiation": "Vyjednávání"
+      },
+      "outdoors": {
+        "navigation": "Navigace",
+        "survival": "Přežití",
+        "tracking_desert": "Stopování v poušti",
+        "tracking_other": "Stopování v ostatních prostředích",
+        "tracking_urban": "Stopování ve městě",
+        "tracking_woods": "Stopování v lese"
+      },
+      "perception": {
+        "aural": "Sluchové",
+        "perception_desert": "Vnímání v poušti",
+        "perception_other": "Vnímání v ostatních prostředích",
+        "perception_urban": "Vnímání ve městě",
+        "perception_woods": "Vnímání v lese",
+        "scent": "Čichové",
+        "tactile": "Hmazové",
+        "taste": "Chuťové",
+        "visual": "Vizuální"
+      },
+      "piloting": {
+        "aircraft": "Letadla",
+        "ground_craft": "Pozemní dopravní prostředky",
+        "watercraft": "Plavidla"
+      },
+      "sorcery": {
+        "counterspelling": "Rušení kouzel",
+        "ritual_spellcasting": "Provádění rituálů",
+        "spellcasting": "Sesílání kouzel"
+      },
+      "stealth": {
+        "camouflage": "Kamufláž",
+        "disguise": "Maskování",
+        "palming": "Hbité ruce",
+        "sneaking": "Plížení"
+      },
+      "tasking": {
+        "compiling": "Kompilace",
+        "decompiling": "Dekompilace",
+        "registering": "Registrace"
+      }
+    },
+    "spell": {
+		  "area": "Plocha",
+      "category": "Kategorie",
+      "category_combat": "Bojová",
+      "category_detection": "Detekční",
+      "category_health": "Tělesná",
+      "category_illusion": "Iluzivní",
+      "category_manipulation": "Manipulační",
+      "damage": "Poškození",
+      "damage_physical": "Fyzické",
+      "damage_physical_short": "F",
+      "damage_physical_special": "Fyzické, speciální",
+      "damage_physical_special_short": "F, spec.",
+      "damage_short": "Pošk.",
+      "damage_stun": "Omráčení",
+      "damage_stun_short": "O",
+      "damage_stun_special": "Omráčení, speciální",
+      "damage_stun_special_short": "O, spec.",
+      "direct": "Přímé",
+      "drain": "Odliv",
+      "drain_short": "Odl.",
+      "duration": "Doba trvání",
+      "duration_instantaneous": "Okamžitá",
+      "duration_instantaneous_short": "O",
+      "duration_immediate": "Ihned",
+      "duration_immediate_short": "I",
+      "duration_limited": "Omezená",
+      "duration_permanent": "Permanentní",
+      "duration_permanent_short": "P",
+      "duration_short": "Trv.",
+      "duration_special": "Speciální",
+      "duration_special_short": "Spec.",
+      "duration_sustained": "Udržovaná",
+      "duration_sustained_short": "U",
+      "duration_always": "Vždy",
+      "duration_always_short": "V",
+      "isOpposed": "Je oponováno",
+      "range": "Dosah",
+      "range_line_of_sight": "V dohledu",
+      "range_line_of_sight_area": "Plocha v dohledu",
+      "range_line_of_sight_area_short": "PVD",
+      "range_line_of_sight_short": "VD",
+      "range_self": "Na sebe",
+      "range_self_area": "Plocha na sebe",
+      "range_self_area_short": "PNS",
+      "range_self_short": "NS",
+      "range_touch": "Dotyk",
+      "range_touch_short": "D",
+      "type": "Typ",
+      "type_mana": "Manové",
+      "type_mana_short": "Man.",
+      "type_physical": "Fyzické",
+      "type_physical_short": "Fyz.",
+      "withEssence": "Proti Esenci"
+    },
+    "spellfeatures": {
+      "area": "Plocha",
+      "direct": "Přímé",
+      "indirect": "Nepřímé",
+      "sense_multi": "Jednosmyslové",
+      "sense_single": "Mnohosmyslové"
+    },
+    "spirittype": {
+      "air": "Vzdušný",
+      "beasts": "Zvířete",
+      "earth": "Zemní",
+      "fire": "Ohnivý",
+      "kin": "Člověka",
+      "plant": "Rostlinný",
+      "water": "Vodní"
+    },
+    "tradition": {
+      "attribute": "Atribut tradice"
+    },
+    "vehicle": {
+      "action_label": "Ovládání / Útok či Obrana dopravního prostředku",
+      "initiative": "Iniciativa dopravního prostředku",
+      "mode_label": "Režim",
+      "mode": {
+        "manual": "Manuální",
+        "riggedAR": "Připojené přes (AR)",
+        "riggedVR": "Připojené přes (VR)",
+        "rcc": "přes RKK (Nutno dodělat)",
+        "autonomous": "Autonomní"
+      },
+      "skill": {
+        "cracking": "Hackování",
+        "evasion": "Uhýbání",
+        "perception": "Vnímání",
+        "piloting": "Pilotování",
+        "stealth": "Utajení"
+      },
+      "type": {
+        "groundcraft": "Pozemní vozidlo",
+        "watercraft": "Plavidlo",
+        "aircraft": "Vzdušný dopravní prostředek"
+      }
+    },
+    "weapon": {
+      "damage": "HP",
+      "attackRating":"Hodnocení útoku",
+      "firemodes": "Režimy střelby",
+      "ammo": "Munice"
+    },
+    "ui": {
+      "notifications": {
+        "You_are_not_owner_of_the_target": "Nejsi vlastníkem cíle.",
+        "You_can_only_choose_Wide_Burst_when_you_target_two_tokens": "Širokou dávku můžeš zvolit pouze při zacílení dvou tokenů.",
+        "Target_or_select_a_token_before_rolling": "Než hodíš kostky, zacil nebo vyber token.",
+        "Target_a_token_before_rolling": "Než hodíš kostky, zacil token.",
+        "Dice_roll_evaluation_failed": "Vyhodnocení hodu kostkami selhalo.",
+        "two_targets_but_wrong_fire_mode": "Máš dva cíle, takže můžeš střílet pouze pomocí střelby dávkou: široká dávka, nebo v režimu plného automatu.",
+        "many_targets_but_not_autofire_fire_mode": "Máš více než dva cíle, takže můžeš střílet pouze v režimu plného automatu.",
+        "attack_with_no_AR": "Snažíš se zaútočit, i když máš Hodnocení útoku 0, například kvůli vzdálenosti.",
+        "apply_manually": "Aplikuj poškození ručně.",
+        "Target_is_not_a_life_form": "Cíl není živá bytost.",
+        "do_not_revert_damage": "Přetéká do fyzického záznamníku. Nevracej toto poškození zpět přes tlačítko v chatu, protože se to nevypočítá správně.",
+        "No_actor_or_tokens_selected": "Zvol si svou hráčskou postavu, nebo vyber tokeny před hodem.",
+        "You_are_not_owner_of_the_tokens": "Nejsi vlastníkem vybraných tokenů."
+      }
+    },
+    "EFFECT": {
+      "chilled": "Podchlazený",
+      "confused": "Zmatený",
+      "corrosive": "Poleptaný",
+      "cover": "Krytý",
+      "dazed": "Omámený",
+      "deafened": "Ohlušený",
+      "fatigued": "Vyčerpaný",
+      "frightened": "Vystrašený",
+      "hazed": "Zamlžený",
+      "hobbled": "Kulhající",
+      "immobilized": "Imobilizovaný",
+      "invisible_improved": "Neviditelný (+)",
+      "nauseated": "Nevolnost",
+      "panicked": "Zpanikařený",
+      "petrified": "Zkamenělý",
+      "poisoned": "Otrávený",
+      "silent": "Tichý",
+      "silent_improved": "Tichý (+)",
+      "stilled": "Ztuhlý",
+      "wet": "Mokrý",
+      "zapped": "Ochromený",
+      "sensorLock": "Zaměřený senzorem",
+      "cerebropathy": "Matrix: Cerebropatie",
+      "cybervirus": "Matrix: Kybervirus",
+      "psychotropic": "Matrix: Psychotropie",
+      "bleeding": "Krvácející",
+      "disabled": "Vyřazený",
+      "muted": "Umlčený",
+      "offbalance": "Vyvedený z rovnováhy",
+      "aceinthehand": "Sociální: Eso v rukávu",
+      "fishoutofwater": "Sociální: Ryba na suchu",
+      "misdirected": "Sociální: Dezorientovaný",
+      "follower": "Sociální: Následovník",
+      "smitten": "Sociální: Okouzlený",
+      "suckered": "Sociální: Napálený",
+      "irradiated": "Ozářený"
+    }
+  },
+  "skill": {
+    "astral": "Astrální zdatnost",
+    "athletics": "Atletika",
+    "biotech": "Biotechnologie",
+    "close_combat": "Boj na blízko",
+    "con": "Klamání",
+    "conjuring": "Vyvolávání",
+    "cracking": "Hackování",
+    "electronics": "Elektronika",
+    "enchanting": "Zaklínání",
+    "engineering": "Inženýrství",
+    "exotic_weapons": "Exotické zbraně",
+    "firearms": "Střelné zbraně",
+    "influence": "Vliv",
+    "outdoors": "Orientace v prostředí",
+    "perception": "Vnímání",
+    "piloting": "Pilotování",
+    "sorcery": "Kouzlení",
+    "stealth": "Utajení",
+    "tasking": "Úkolování"
+  }
+}
