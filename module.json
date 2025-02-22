@@ -1,0 +1,28 @@
+{
+  "id": "czechtranslationshadowrun6",
+  "title": "CzechTranslationShadowrun6",
+  "version": "1.0.0",
+  "compatibility": {
+    "minimum": "12.331",
+    "verified": "12.331"
+  },
+  "description": "Český překlad Shadowrunu, Šestého světa.",
+  "authors": [
+    {
+      "name": "Lethrendis",
+      "email": "michmildub@seznam.cz",
+      "discord": "Lethrendis",
+      "flags": {}
+    }
+  ],
+  "languages": [
+    {
+      "lang": "cs",
+      "name": "Čeština",
+      "path": "lang/cs.json"
+    }
+  ],
+  "url": "https://github.com/Lethrendis",
+  "manifest": "https://raw.githubusercontent.com/Lethrendis/CzechTranslationShadowrun6e/main/module.json",
+  "download": "https://github.com/Lethrendis/CzechTranslationShadowrun6e/archive/refs/heads/main.zip"
+}
