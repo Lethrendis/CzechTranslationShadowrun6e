@@ -73,7 +73,7 @@
     "bod_short": "T",
     "cha": "Charisma",
     "cha_short": "CH",
-    "dr": "Hod. obrany",
+    "dr": "Hodnocení obrany",
     "dr_short": "HO",
     "edg": "Hrana",
     "edg_short": "HR",
@@ -105,8 +105,8 @@
   "shadowrun6": {
     "actor": {
       "actions": "Akce",
-      "actions_major": "Hlavní",
-      "actions_minor": "Menší",
+      "actions_major": "hlavní",
+      "actions_minor": "menší",
       "editable": "Editovatelné",
       "initiative": "Iniciativa",
       "initiative_astral": "Astrální iniciativa",
@@ -159,7 +159,7 @@
       "matrix": "Hod. matrix. útoku",
       "physical": "Hod. fyz. útoku",
       "social": "Hod. soc. útoku",
-      "vehicle": "Hod. útoku dopravního prostředku"
+      "vehicle": "Hodnocení útoku dopravního prostředku"
     },
     "combat": {
 		"togglePhysical": "Použít fyz. iniciativu",
@@ -185,18 +185,18 @@
     },
     "defense": {
       "astral": "Astrálnímu boji",
-      "drain": "Odlivu (odolání)",
-      "fading": "Blednutí (odolání)",
-      "damage_astral": "Astrál. zranění (odolání)",
-      "damage_physical": "Fyz. poškození (odolání)",
+      "drain": "Odolání Odlivu",
+      "fading": "Odolání Blednutí",
+      "damage_astral": "Odolání astrál. zranění",
+      "damage_physical": "Odolání fyz. poškození",
       "physical": "Útokům",
       "spells_direct": "Přímým kouzlům",
       "spells_indirect": "Nepřímým kouzlům",
       "spells_other": "Ostatním kouzlům",
-      "toxin": "Toxinům (odolání)"
+      "toxin": "Odolání toxinům"
     },
     "defense_rating": {
-	   "label":  "Hod. obrany",
+	   "label":  "Hodnocení obrany",
       "astral": "Hod. magic. obrany",
       "matrix": "Hod. matrix. obrany",
       "physical": "Hod. fyz. obrany",
@@ -334,7 +334,7 @@
         "MOD_INTERIOR": "Úpravy sedadel a nákladového prostoru",
         "MOD_CARGO": "Úpravy objemu nákladu",
         "MOD_FORM": "Forma",
-        "MOD_ARMOR": "Pancíř",
+        "MOD_ARMOR": "Pancéřování",
         "MOD_ELEMENTS": "Prvky",
         "MOD_ACC": "Úpravy akcelerace",
         "MOD_EFFICIENCY": "Úpravy efektivity",
@@ -437,20 +437,20 @@
       "accessories": "Příslušenství",
       "strWeapon": "Využívá Sílu",
       "ammunition": "Munice",
-      "attackvalues": "Hod. útoku",
+      "attackvalues": "Hodnocení útoku",
       "availability": "Dostupnost",
       "capacity": "Kapacita",
       "category": "Kategorie",
       "damage": "Poškození",
-      "defencerating": "Hod. obrany",
+      "defencerating": "Hodnocení obrany",
       "description": "Popis",
       "essence": "Esence",
       "feature": "Vlastnosti",
       "firemode": {
-        "SS": "Jednotlivé výstřely",
-        "SA": "Poloautomat",
-        "BF": "Dávka",
-        "FA": "Plný automat"
+        "SS": "JR",
+        "SA": "PA",
+        "BF": "D",
+        "FA": "A"
       },
       "mastyle": {
         "category": {
@@ -462,7 +462,7 @@
         }
       },
       "mode": "Režimy",
-      "mode_ss": "JV",
+      "mode_ss": "JR",
       "mode_sa": "PA",
       "mode_bf": "D",
       "mode_fa": "A",
@@ -478,13 +478,13 @@
       "price": "Cena",
       "skill": "Dovednost",
       "skillspec": "Specializace",
-      "social": "Sociální",
+      "social": "Sociální modifikátor",
       "stun_damage": "O",
       "subtype": "Podtyp",
       "type": "Typ",
       "vehicle": {
-        "armor.long": "Pancíř",
-        "armor.short": "Pan.",
+        "armor.long": "Pancéřování",
+        "armor.short": "Panc.",
         "rigRating.long": "Kontrolní rig",
         "sensor.long": "Senzor",
         "sensor.short": "Sen."
@@ -523,7 +523,7 @@
       },
       "attack_rating": "Hodnocení útoku",
       "attack_rating_short": "HÚ",
-      "attack_rating_using_vehicle": "Hod. útoku (dopravní prostředek jako zbraň)",
+      "attack_rating_using_vehicle": "Hodnocení útoku (dopravní prostředek jako zbraň)",
       "attribute": "Atribut",
       "details": "Detaily..",
       "trait": "Rys",
@@ -541,14 +541,14 @@
       "attack.long": "Útok",
       "sleaze.short": "Mask.",
       "sleaze.long": "Maskování",
-      "dataproc.short": "ZD",
+      "dataproc.short": "Z.D.",
       "dataproc.long": "Zpracování dat",
-      "firewall.short": "F",
+      "firewall.short": "F.",
       "firewall.long": "Firewall",
       "devicerating.short": "Hod.",
       "devicerating.long": "Hodnocení zařízení",
       "d6": "K6",
-      "damage": "Poškození",
+      "damage": "Zranění",
       "damage_short": "Pošk.",
       "defense": "Obrana",
       "defense_against": "Obrana proti",
@@ -997,7 +997,7 @@
       "cast_target_multiple": "Seslání {name} na více cílů",
       "cast_target_none": "Seslání {name}",
       "cast_target_one": "Seslání {name} na {target}",
-      "skill": "Proveď test dovednosti",
+      "skill": "Hodit test dovednosti",
       "thread": "Spřádání {name}",
       "defense": {
         "physical": "Obrana proti fyzickému útoku",
@@ -1005,10 +1005,10 @@
         "spells_indirect": "Obrana proti nepřímým bojovým kouzlům"
       },
       "soak": {
-        "drain": "Odolávání {damage} Odlivu",
-        "fading": "Odolávání {damage} Blednutí",
-        "damage_phys": "Odolávání {damage} fyzickému poškození",
-        "damage_stun": "Odolávání {damage} poškození omráčením"
+        "drain": "Odolání Odlivu {damage}",
+        "fading": "Odolání Blednutí {damage}",
+        "damage_phys": "Odolání fyz. poškození {damage}",
+        "damage_stun": "Odolání omr. poškození {damage}"
       }
     },
     "apply_damage": "Aplikovat poškození",
@@ -1028,10 +1028,10 @@
     },
     "button": {
       "defense": "Hodit na obranu",
-      "drain": "Odolat Odlivu",
-      "soak": "Absorbovat poškození"
+      "drain": "Odolání Odlivu",
+      "soak": "Odolání poškození"
       },
-      "cantDodgeBullets": "Po určení vzdálenosti zvýší práh v závislosti na okolnostech",
+      "cantDodgeBullets": "Po určení vzdálenosti se zvýší práh v závislosti na okolnostech",
       "configure": "Nastav svůj hod",
       "wound-modifier": "Použít modifikátor zranění",
       "sustained-spell-modifier": "Použít postih za udržovaní kouzla",
@@ -1046,28 +1046,28 @@
         "gain_player_capped": "{name} by získal {value} Výhody, ale nemůže získat více než {capped}",
         "getting": "Získávání Hrany",
         "no_gain": "Nikdo nezískává Hranu",
-        "situational": "Situacční Hrana",
+        "situational": "Situační Hrana",
         "spending": "Utrácení Hrany"
       },
       "edge_perform": "Udělej to",
       "edgegain": "Zisk Hrany (max): ",
       "edgegain_player": " (Hráč)",
       "exp": "Odbornost",
-      "explode": "Exploze",
+      "explode": "Exploze kostek",
 	   "fa_area": "Oblast",
 		"firemode": "Režim střelby",
       "failure": "Neúspěch",
-      "failedDefense": "Byl(a) jsi zasažen(a) a teď to bude bolet",
-      "failedSoak"   : "Utrpěl(a) jsi zranění",
+      "failedDefense": "Zásah, teď to bude bolet!",
+      "failedSoak"   : "Výsledné poškození",
       "glitch": "Krach",
       "hits_bought": "Zakoupené úspěchy",
-      "hits": "úspěchů",
+      "hits": "úspěchy",
       "mode": "Režim",
       "modifier": "Modifikátor fondu",
       "noedgegain": "Žádný zisk Hrany",
       "nosuccess": "úspěchy, práh: ",
       "notarget": "Nebyl vybrán žádný cíl",
-      "pool": "Zásobník",
+      "pool": "Fond",
 		"range": "Vzdálenost",
       "spec": "Specializace",
       "spell": {
@@ -1121,7 +1121,7 @@
           "action": "Akce",
           "defense": "HO",
           "name": "Název",
-          "social": "Společenské"
+          "social": "Sociální modifikátor"
         },
         "title": "Pancíře"
       },
