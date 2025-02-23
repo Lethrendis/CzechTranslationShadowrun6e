@@ -1,6 +1,6 @@
 {
-	"Shadowrun6ActorSheetNPC": "Bla",
-	"shadowrun6-eden.Shadowrun6ActorSheetNPC": "Blubb",
+	"Shadowrun6ActorSheetNPC": "Grunt",
+	"shadowrun6-eden.Shadowrun6ActorSheetNPC": "Hráčská postava",
   "SYSTEM": {
     "Sidebar": {
       "readme": "README",
@@ -73,7 +73,7 @@
     "bod_short": "T",
     "cha": "Charisma",
     "cha_short": "CH",
-    "dr": "Hodnocení obrany",
+    "dr": "Hod. obrany",
     "dr_short": "HO",
     "edg": "Hrana",
     "edg_short": "HR",
@@ -155,27 +155,27 @@
 	  }
 	 },
     "attack_rating": {
-      "astral": "Hodnocení magic. útoku",
-      "matrix": "Hodnocení matrix. útoku",
-      "physical": "Hodnocení fyz. útoku",
-      "social": "Hodnocení soc. útoku",
-      "vehicle": "Hodnocení útoku dopravního prostředku"
+      "astral": "Hod. magic. útoku",
+      "matrix": "Hod. matrix. útoku",
+      "physical": "Hod. fyz. útoku",
+      "social": "Hod. soc. útoku",
+      "vehicle": "Hod. útoku dopravního prostředku"
     },
     "combat": {
-		"togglePhysical": "Použít fyzickou iniciativu",
-		"toggleMatrix": "Použít matrixovou iniciativu",
-		"toggleAstral": "Použít astrální iniciativu"
+		"togglePhysical": "Použít fyz. iniciativu",
+		"toggleMatrix": "Použít matrix. iniciativu",
+		"toggleAstral": "Použít astrál. iniciativu"
 	},
     "complexform": {
       "duration": "Doba trvání",
-      "fading": "Hodnota Blednutí",
+      "fading": "Hodnocení Blednutí",
       "oppAttr1": "1. opozitní atribut",
       "oppAttr2": "2. opozitní atribut",
       "skill": "Dovednost",
       "threshold": "Práh"
     },
     "contact": {
-      "rating_short": "Hodn.",
+      "rating_short": "Hod.",
       "rating": "Hodnocení",
       "loyalty": "Loajalita",
       "loyalty_short": "Loa.",
@@ -184,30 +184,30 @@
       "type": "Typ"
     },
     "defense": {
-      "astral": "Astrální boj",
-      "drain": "Odolání Odlivu",
-      "fading": "Odolání Blednutí",
-      "damage_astral": "Odolání astrálnímu poškození",
-      "damage_physical": "Odolání fyzickému poškození",
-      "physical": "Útoky",
-      "spells_direct": "Přímá kouzla",
-      "spells_indirect": "Nepřímá kouzla",
-      "spells_other": "Ostatní kouzla",
-      "toxin": "Odolání toxinům"
+      "astral": "Astrálnímu boji",
+      "drain": "Odlivu (odolání)",
+      "fading": "Blednutí (odolání)",
+      "damage_astral": "Astrál. zranění (odolání)",
+      "damage_physical": "Fyz. poškození (odolání)",
+      "physical": "Útokům",
+      "spells_direct": "Přímým kouzlům",
+      "spells_indirect": "Nepřímým kouzlům",
+      "spells_other": "Ostatním kouzlům",
+      "toxin": "Toxinům (odolání)"
     },
     "defense_rating": {
-	   "label":  "Hodnocení obrany",
-      "astral": "Hodnocení magic. obrany",
-      "matrix": "Hodnocení matrix. obrany",
-      "physical": "Hodnocení fyz. obrany",
-      "social": "Hodnocení soc. obrany",
-      "vehicle": "Hodnocení obrany dopravního prostředku"
+	   "label":  "Hod. obrany",
+      "astral": "Hod. magic. obrany",
+      "matrix": "Hod. matrix. obrany",
+      "physical": "Hod. fyz. obrany",
+      "social": "Hod. soc. obrany",
+      "vehicle": "Hod. obrany dopravního prostředku"
     },
     "derived": {
       "composure": "Zhroucení se",
       "defense_rating": "Hodnocení obrany",
       "judge_intentions": "Odhad lidí",
-      "lift_carry": "Zvedání/Nošení",
+      "lift_carry": "Zvedání / Nošení",
       "memory": "Paměť",
       "matrix_perception": "Matrixové vnímání",
       "heal": {
@@ -437,12 +437,12 @@
       "accessories": "Příslušenství",
       "strWeapon": "Využívá Sílu",
       "ammunition": "Munice",
-      "attackvalues": "Hodnocení útoku",
+      "attackvalues": "Hod. útoku",
       "availability": "Dostupnost",
       "capacity": "Kapacita",
       "category": "Kategorie",
       "damage": "Poškození",
-      "defencerating": "Hodnocení obrany",
+      "defencerating": "Hod. obrany",
       "description": "Popis",
       "essence": "Esence",
       "feature": "Vlastnosti",
@@ -523,8 +523,11 @@
       },
       "attack_rating": "Hodnocení útoku",
       "attack_rating_short": "HÚ",
-      "attack_rating_using_vehicle": "Hodnocení útoku (dopravní prostředek jako zbraň)",
+      "attack_rating_using_vehicle": "Hod. útoku (dopravní prostředek jako zbraň)",
       "attribute": "Atribut",
+      "details": "Detaily..",
+      "trait": "Rys",
+      "trait_pool": "Rys / Fond",
       "base": "Základ",
       "belongs_to": "Patří k",
       "column": {
@@ -538,11 +541,11 @@
       "attack.long": "Útok",
       "sleaze.short": "Mask.",
       "sleaze.long": "Maskování",
-      "dataproc.short": "Zp.D.",
+      "dataproc.short": "ZD",
       "dataproc.long": "Zpracování dat",
-      "firewall.short": "Fire.",
+      "firewall.short": "F",
       "firewall.long": "Firewall",
-      "devicerating.short": "Hodn.Z.",
+      "devicerating.short": "Hod.",
       "devicerating.long": "Hodnocení zařízení",
       "d6": "K6",
       "damage": "Poškození",
@@ -553,6 +556,7 @@
       "delete": "Odstranit",
       "device_mode": "Režim zařízení",
       "devRating": "Hodnocení zařízení",
+      "dual_hand": "Obě ruce",
       "dice": "Kostky",
       "edit": "Upravit",
       "expertise": "Odbornost",
@@ -564,7 +568,9 @@
       "force": "Síla",
       "gender": "Pohlaví",
       "legality.illegal.short": "Il.",
-      "legality.legal.short": "L.",
+      "legality.illegal.long": "Ilegální",
+      "legality.legal.short": "Leg.",
+      "legality.legal.long": "Legální",
       "level": "Má úrovně",
       "mages": "Kouzelníci",
       "matrixMonitor": "Matrixový záznamník",
@@ -574,13 +580,13 @@
       "modifier": "Modifikátor",
       "name": "Název",
       "none": "-",
-      "not_present": "není přítomen",
+      "not_present": "Nepřítomen",
       "offroad": "Off-Road",
       "onroad": "On-Road",
       "points": "Body",
       "pool": "Fond",
       "poolmod": "Modifikátor fondu",
-      "programs.short": "Sl.P.",
+      "programs.short": "Sloty",
       "progSlots": "Sloty aktivních programů",
       "rating": "Hodnocení",
       "rating1": "Hodnocení 1",
@@ -592,7 +598,7 @@
       "speed_detail": "Pohybuješ se rychlostí {speed} km/h ({speedPerTurn} metrů za kolo). Tvůj modifikátor testů je {modifier}.",
       "threshold": "Práh",
       "type": "Typ",
-      "value": "Hodnota",
+      "value": "Hodnocení",
       "wilddie": "Divoká kostka"
     },
     "lifestyle": {
@@ -607,46 +613,210 @@
       "high" : "Vysoký",
       "luxury" : "Luxusní"
     },
+    "matrix": {
+      "accessLevel": {
+        "outsider": "NÁVŠTĚVNÍK",
+        "user": "UŽIVATEL",
+        "admin": "ADMIN"
+      }
+    },
     "matrixaction": {
-      "backdoor_entry": "Zadní vrátka",
-      "brute_force": "Brutálně hackovat",
-      "change_icon": "Změnit ikonu",
-      "check_os": "Zkontrolovat OD",
-      "control_device": "Kontrolovat zařízení",
-      "crack_file": "Cracknout soubor",
-      "crash_program": "Shodit program",
-      "data_spike": "Datový šíp",
-      "disarm_data_bomb": "Odstranit datovou bombu",
-      "edit_file": "Upravit soubor",
-      "encrypt_file": "Zašifrovat soubor",
-      "enter_host": "Vstoupit do sítě",
-      "erase_matrix_signature": "Vymazat matrixovou signaturu",
-      "format_device": "Formátovat zařízení",
-      "full_matrix_defense": "Plná matrixová obrana",
-      "hash_check": "Hashové vyhledávání",
-      "hide": "Skrýt se",
-      "jack_out": "Odpojit se",
-      "jam_signals": "Rušit signál",
-      "jump_rigged": "Skočit do riggovaného zařízení",
-      "matrix_perception": "Matrixové vnímání",
-      "matrix_search": "Matrixové vyhledávání",
-      "probe": "Sondovat",
-      "reboot_device": "Restartovat zařízení",
-      "reconfigure": "Změnit matrixové atributy",
-      "send_message": "Poslat zprávu",
-      "set_data_bomb": "Nastavit datovou bombu",
-      "snoop": "Špehovat",
-      "spoof_command": "Napodobit příkaz",
-      "switch_ifmode": "Změnit režim",
-      "tarpit": "Ochromit",
-      "trace_icon": "Stopovat ikonu"
+      "backdoor_entry": {
+          "name": "Zadní vrátka",  
+          "hint": "Získáš lstivým způsobem administrátorský přístup do sítě či zařízení. Nejprve proveď úspěšnou akci ´Sondovat´ a přidej čisté úspěchy jako bonus k tomuto fondu kostek."
+        },  
+        "brute_force": {  
+          "name": "Brutálně hackovat",  
+          "hint": "Pokusíš se získat rychlý přístup zahlcením cíle. Pokud se pokoušíš získat administrátorský přístup rovnou z návštěvníka, nepřítel získá dvě bonusové kostky a plus čtyři k Hodnocení obrany. V každém případě však zařízení vyhlásí poplach."  
+        },  
+        "calibration": {  
+          "name": "Kalibrace",  
+          "hint": "Za každé dva získané úspěchy přidáš jeden bod k matrixové iniciativě sobě i svým spolubojovníkům (kteří sdílejí AR kanál s tvým PANem). Celkové zvýšení Persony však nemůže být vyšší než tvé Zpracování dat."  
+        },
+        "change_icon": {  
+          "name": "Změnit ikonu",  
+          "hint": "Nahradíš svou ikonu jinou ikonou. Nezabrání to však ´stopování ikony´, pokud se o něj někdo pokusí."  
+        },  
+        "check_os": {  
+          "name": "Zkontrolovat OD",  
+          "hint": "Zjistíš své aktuální skóre Odpočtu dopadení. Ironicky tato akce taktéž zvyšuje tvé OD."  
+        },  
+        "control_device": {  
+          "name": "Kontrolovat zařízení",  
+          "hint": "Převezmeš kontrolu nad zařízením, jako bys byl jeho vlastníkem. Do té doby, dokud jej dobrovolně neopustíš, nevypneš, nebo tě někdo jiný nevyřadí z kontroly."  
+        },  
+        "disarm_data_bomb": {  
+          "name": "Odstranit datovou bombu",  
+          "hint": "Touto akcí můžeš zneškodnit datové bomby, které jsi odhalil pomocí ´matrixového vnímání´. Pokud nezískáš čisté úspěchy, datová bomba exploduje."  
+        },  
+        "crack_file": {  
+          "name": "Cracknout soubor",  
+          "hint": "Tato akce zpřístupní šifrovaný soubor k přečtení."  
+        },  
+        "crash_program": {  
+          "name": "Shodit program",  
+          "hint": "Když pomocí ´matrixového vnímání´ zjistíš, jaké programy běží na zařízení tvého protivníka, můžeš poté touto akcí ukonči jejich běh."  
+        },  
+        "data_spike": {  
+          "name": "Datový šíp",  
+          "hint": "Standardní útok pro způsobení matrixového poškození zařízení či personě."  
+        },  
+        "device_lock": {  
+          "name": "Uzamčení zařízení",  
+          "hint": "Zabraníš vlastníkovi zařízení v odpojení se z Matrixu po dobu čistých úspěchů v bojových kolech. Použitím menší akce lze ještě jednou prodloužit."  
+        },  
+        "denial_of_service": {  
+          "name": "Odmítnutí služby",  
+          "hint": "Vytvoříš postih kostek pro všechny testy využívající dané bezdrátové zařízení ve výši dvojnásobku čistých úspěchů."  
+        },  
+        "delayed_command": {  
+          "name": "Opožděný příkaz",  
+          "hint": "Pošleš příkaz zařízení s časovaným odkladem. Při úspěchu jej zařízení přijme, jako by byl odeslán jeho vlastníkem. Po uplynutí času bude příkaz proveden, i když by bylo zařízení mezitím odpojeno od Matrixu. Restart před provedením však příkaz odstraní."  
+        },  
+        "edit_file": {
+          "name": "Upravit soubor",  
+          "hint": "Touto akcí můžeš přidat, upravit, zkopírovat, nebo odstranit soubor. Během boje vyžaduje přidání či změna souboru akci pro každý detail. Šifrované soubory kopírovat nelze."  
+        },
+        "encrypt_file": {  
+          "name": "Zašifrovat soubor",  
+          "hint": "Tato akce učiní soubor nečitelným, dokud nebude dešifrován. Hodnocení šifrování se rovná počtu úspěchů tohoto hodu."  
+        },  
+        "enter_host": {  
+          "name": "Vstoupit do sítě",  
+          "hint": "Vstup do/opušění sítě."  
+        },  
+        "erase_matrix_signature": {  
+          "name": "Vymazat matrixovou signaturu",  
+          "hint": "Pokud máš hodnocení Rezonance, pak touto akcí odstraníš matrixovou signaturu zanechanou technomantem či spritem."  
+        },  
+        "format_device": {  
+          "name": "Formátovat zařízení",  
+          "hint": "Nahradíš spouštěcí sektor tohoto zařízení vlastním kódem, takže se již nespoustí po příkazu k restartu."  
+        },  
+        "full_matrix_defense": {  
+          "name": "Plná matrixová obrana",  
+          "hint": "Přidáš své hodnocení Firevallu ke všem obranným testům souvisejícím s Matrixem."  
+        },  
+        "garbage_in_out": {  
+          "name": "Zmást vstupy i výstupy",  
+          "hint": "Zasáhneš do vstupních i výstupních signálů zařízení. Například pokaždé, když se vlastník pokusí spustit program se místo toho smaže poslední pořízená fotografie."  
+        },  
+        "hash_check": {  
+          "name": "Hashové vyhledávání",  
+          "hint": "Hledáš v síti či zařízení šifrované soubory s konkrétním obsahem. Pravděpodobnost úspěchu se výrazně zvyšuje, pokud máš hodnotu hash."  
+        },  
+        "hide": {  
+          "name": "Skrýt se",  
+          "hint": "Pokusíš se přimět cíl, aby tě v Matrixu ztratil z dohledu. Nefunguje, pokud má daná ikona uživatelský či administrátorský přístup k jakémukoli zařízení ve tvé síti."  
+        },  
+        "jack_out": {  
+          "name": "Odpojit se",  
+          "hint": "Restartováním svého zařízení se odpojíš z Matrixu. Pokud jsi uzamčen(a), tak si protivník proti tobě hodí. Pokud jsi předtím nepřešel(a) do AR, utrpíš poškození z děrového šoku."  
+        },  
+        "jam_signals": {  
+          "name": "Rušit signál",  
+          "hint": "Pokud toto zařízení nevyužíváš k jiným akcím, zvýší o počet tvých úspěchů úroveň šumu v okruhu 100 metrů."  
+        },  
+        "jump_rigged": {  
+          "name": "Skočit do riggovaného zařízení",  
+          "hint": "Vozidlo či dron, do kterého se chceš připojit, musí mít riggerské rozhraní a ty potřebuješ kontrolní rig. Do zařízení se můžeš připojit pouze tehdy, pokud v něm už nikdo není. Tvůj status vlastníka a úroveň přístupu také ovlivní, zda se ti to podaří a zda bude nutný hod."  
+        },  
+        "known_exploit": {  
+          "name": "Známá zadní vrátka",  
+          "hint": "Pokusíš se využít známé exploity k přímému získání administrátorského přístupu. Šance na úspěch se u dobře aktualizovaných sítí a zařízení snižuje. Tato akce kombinuje akce ´sondovat´ a ´zadní vrátka´ do jedné. Nemůžeš za ni získat ani použít Hranu, zatímco protivník dostane jednu dočasnou volnou Hranu navíc, aby se ti postavil."  
+        },  
+        "masquerade": {  
+          "name": "Maškaráda",  
+          "hint": "Můžeš po dobu čistých úspěchů v minutách předstírat, že jsi v Matrixu někým jiným. Matrix je však těžké oklamat a tato akce nefunguje například pro převzetí vlastnictví zařízení ani bankovní operace."  
+        },  
+        "matrix_perception": {  
+          "name": "Matrixové vnímání",  
+          "hint": "Najdeš ikony, které běží v tichém režimu, nebo získáš informace o cíli. Třeba jaká je jeho ikona, Hodnocení zařízení, běžící programy a další specifické údaje."  
+        },  
+        "matrix_search": {  
+          "name": "Matrixové vyhledávání",  
+          "hint": "Prohledáš veřejný Matrix pro získání informací o určitém subjektu."  
+        },  
+        "metahuman_middle": {  
+          "name": "Metačlověk uprostřed",  
+          "hint": "Přesměruješ na dobu čistých úspěchů v minutách veškerou matrixovou komunikaci a akce skrze tvé zařízení."  
+        },  
+        "modify_icon": {  
+          "name": "Úprava ikony",  
+          "hint": "Upravíš ikonu, ke které máš administrátorský přístup, na něco, co nereprezentuje. Například aby tvoje zbraň vypadala jako květiny."  
+        },  
+        "probe": {  
+          "name": "Sondovat",  
+          "hint": "Pokusíš se najít exploit. Následně použij akci ´zadní vrátka´ k získání přístupu. Trvá to nějaký čas, ale na rozdíl od ´brutálního hackování´ to nevyvolává poplach."  
+        },  
+        "pop_up": {  
+          "name": "Vyskakovací okna",  
+          "hint": "Zasypeš protivníka ARO okny, aby po dobu čistých úspěchů v bojových kolech kvůli rozptýlení nemohl utrácet Hranu."  
+        },  
+        "reboot_device": {  
+          "name": "Restartovat zařízení",  
+          "hint": "Tato akce vynuceným restartem odpojí zařízení z Matrixu. Zařízení bude znovu online na konci následujícího bojového kola."  
+        },  
+        "reconfigure": {  
+          "name": "Změnit matrixové atributy",  
+          "hint": "Můžeš prohodit dvě základní hodnocení své matrixové persony, které jsou vyšší než 0. A to bez ohledu na zdroj (komlink, kyberjack atd.), ze kterého pocházejí."  
+        },  
+        "send_message": {  
+          "name": "Poslat zprávu",  
+          "hint": "Odešleš zvukovou či textovou zprávu někomu jinému, nebo s ním navážeš živý přenos."  
+        },  
+        "set_data_bomb": {  
+          "name": "Nastavit datovou bombu",  
+          "hint": "Připojíš datovou bombu, aby odpálila neopatrné hackery. Její Hodnocení může být až do maximálního počtu čistých úspěchů, které získáš. Poté si zvol, zda datová bomba při výbuchu soubor smaže, nebo ne."  
+        },  
+        "snoop": {  
+          "name": "Špehovat",  
+          "hint": "Získáš přístup k datovému provozu, který si tvůj cíl vyměňuje s Matrixem."  
+        },  
+        "spoof_command": {  
+          "name": "Napodobit příkaz",  
+          "hint": "Pošleš příkaz zařízení a předstíráš, že jsi jeho legitimní vlastník. Zařízení se pak pokusí vykonat akci ve své nejbližší dostupné hlavní akci."  
+        },  
+        "squelch": {  
+          "name": "Umlčet",  
+          "hint": "Po dobu čistých úspěchů v bojových kolech bráníš cíli v odesílání zpráv či volání."  
+        },  
+        "subvert_infrastructure": {  
+          "name": "Podvržení infrastruktury",  
+          "hint": "Přinutíš skupinu podobných, jednoduchých zařízení připojených k jedné síti, aby dělala, co chceš. Například vypneš pouliční osvětlení, nebo otočíš všechny bezpečnostní kamery stranou."  
+        },  
+        "switch_ifmode": {  
+          "name": "Změnit režim",  
+          "hint": "Přepneš mezi režimy AR a VR svého rozhraní."  
+        },  
+        "tarpit": {  
+          "name": "Ochromit",  
+          "hint": "Zpomalíš svůj cíl tím, že mu způsobíš určité poškození a snížíš jeho hodnocení Zpracování dat."  
+        },  
+        "threat_analysis": {  
+          "name": "Analýza hrozeb",  
+          "hint": "Označíš nebezpečné entity a sdílíš to přes AR kanál se svými spojenci, aby získali tvé úspěchy jako bonusové kostky k hodu na obranu. Funguje to jak ve fyzickém světě, tak i v Matrixu."  
+        },  
+        "trace_icon": {  
+          "name": "Stopovat ikonu",  
+          "hint": "Dohledáš fyzickou polohu zařízení či persony."  
+        },  
+        "virtual_aim": {  
+          "name": "Virtuální zacílení",  
+          "hint": "Poskytne ti jednu bonusovou kostku k útočným akcím, jako jsou ´datový šíp´ či ´ochromit´. Lze aktivovat jednou za kolo a efekty se sčítají, pokud v následném kole neprovedeš jinou akci ´virtuálního zacílení´ nebo útok. Maximální bonus je limitován tvoz Vůlí."  
+        },  
+        "watchdog": {  
+          "name": "Hlídací pes",  
+          "hint": "Umožní ti po dobu čistých úspěchů v bojových kolech sledovat a předvídat akce matrixové persony či zařízení, abys mohl(a) zasáhnout. Pokud je ´hlídací pes´ aktivní, umožňuje ti vykonávat ´analýzu hrozeb´pomocí menší akce."  
+        }
     },
     "matrixini": {
 			"ar": "AR",
 			"vrcold": "VR",
-			"vrhot": "VR Hot"
+			"vrhot": "Hot VR"
 	   },
     "monitor": {
+      "label": "záznamník",
 		  "matrix": "Matrixový",
       "physical": "Fyzický",
       "stun": "Omráčení",
@@ -662,7 +832,7 @@
     },
     "newitem": {
       "adeptpower": "Pojmenuj svou MOC!",
-      "accessory": "Lesklý skleněný věcičky",
+      "accessory": "Lesklá skleněná věcička",
       "ammunition": "Žhavá munice",
       "armor": "Něco trendy na sebe",
       "armor_addition": "Tvůj kabát potřebuje nášivku!",
@@ -675,10 +845,10 @@
       "cyberware": "Nějaká cool kybernetika",
       "drones": "Moje lítající oko",
       "echo": "Echooooooo",
-      "electronics": "Hračky pro nerdy",
-      "genetics": "Každej bych chtěl modrý oči...",
+      "electronics": "Hračka pro nerdy",
+      "genetics": "Každej bych chtěl modrý voči...",
       "focus": "Něco na soustředění",
-      "lifestyle": "Je libo popelnice, nebo apartmá?",
+      "lifestyle": "Popelnice, nebo apartmá?",
       "magical": "Magický peříčka",
       "martialartstyle": "Jakej je tvůj styl?",
       "martialarttech": "Technika? Jaká technika?",
@@ -686,21 +856,21 @@
       "rcc": "Minion Dominator X2000",
       "metamagic": "Metamojo",
       "nanoware": "Sedm nebo devět malejch stroječků",
-      "quality": "Co jsi zač?",
+      "quality": "Co jseš zač?",
       "ritual": "Zpívání Hallelujah",
       "sin": "Kdo jseš? Kdo, kdo, kdo, kdo...",
       "skill": {
-        "knowledge": "Jaký je tvoje nerdovský téma?",
+        "knowledge": "O čem rád(a) žvaníš?",
         "language": "Hatmatilka"
       },
       "spell": "Abrakadabra",
       "software": "Nějakej spam",
       "survival": "Šikovnej švýcarskej nožík",
       "tools": "Tvoje nejoblíbenější hračka?",
-      "vehicles": "Úžasná jízda",
-      "weapon": "Taky si pojmenováš svoje zbraně?",
-      "weaponclose": "Něco těžkýho do ruky...",
-      "weaponspecial": "Divná zbraň"
+      "vehicles": "Úžasnej bourák",
+      "weapon": "Taky mají tvoje zbraně jména?",
+      "weaponclose": "Něco tvrdýho do ruky...",
+      "weaponspecial": "Fakt divná zbraň"
     },
     "npc": {
       "subtype": {
@@ -714,7 +884,7 @@
     },
     "numerical": {
       "base": "základ",
-      "baseString": "Základní hodnota",
+      "baseString": "Základní hodnocení",
       "max": "Max",
       "mod": "Mod."
     },
@@ -861,6 +1031,7 @@
       "drain": "Odolat Odlivu",
       "soak": "Absorbovat poškození"
       },
+      "cantDodgeBullets": "Po určení vzdálenosti zvýší práh v závislosti na okolnostech",
       "configure": "Nastav svůj hod",
       "wound-modifier": "Použít modifikátor zranění",
       "sustained-spell-modifier": "Použít postih za udržovaní kouzla",
@@ -870,6 +1041,7 @@
       "damage_apply": "Aplikovat poškození",
       "defRating": "Hodnocení obrany",
       "edge": {
+        "add_manually_to_target": "(Add manually) cíl",
         "gain_player": "{name} získává {value} Hrany",
         "gain_player_capped": "{name} by získal {value} Výhody, ale nemůže získat více než {capped}",
         "getting": "Získávání Hrany",
@@ -923,6 +1095,8 @@
       "netHits": "čisté úspěchy",
       "successfulDefense": "Úspěšně ses vyhnul(a) zásahu",
       "successfulSoak"   : "Podařilo se ti zvládnout poškození",
+      "missedAttack"   : "Minul jsi, kámo!",
+      "succesfulHit"   : "Zasáhl jsi, kámo!",
       "target": "Cíl",
       "threshold": "Práh",
 		"weapon":  "Definuj svůj útok",
@@ -975,7 +1149,7 @@
         "add": "Přidat Sílu nestvůry",
         "title": "Síly"
       },
-      "defense": "Obrany a odolávání",
+      "defense": "Obrany a odolání",
       "derived": "Odvozené hodnoty",
       "drones": {
         "add": "Přidat nový dron",
@@ -1031,7 +1205,7 @@
           "name": "Název"
         },
         "title": "Matrixová zařízení",
-        "title_rcc": "RKK"
+        "title_rcc": "Riggerská kontrolní konzole"
       },
       "metamagic": {
         "add": "Přidat novou metamagii",
@@ -1087,15 +1261,15 @@
       },
 		"survival": "Přežití",
       "vehicles": {
-        "add": "Přidat nový prostředek",
+        "add": "Přidat nový dopravní prostředek",
 		   "column": {
 				"handling": "Ovl.",
-				"acc": "Zr.",
-				"spdi": "Int.R.",
-				"tspd": "Rychl.",
+				"acc": "Akc.",
+				"spdi": "Int.Rych.",
+				"tspd": "Rych.",
 				"bod": "Tělo",
-				"arm": "Pancíř",
-				"pil": "Pilot",
+				"arm": "Panc.",
+				"pil": "AuP.",
 				"sen": "Senz.",
 				"sea": "Sed.",
         "vtype": "Typ"
@@ -1116,8 +1290,8 @@
     },
     "settings": {
       "maxEdgePerRound": {
-        "hint": "Definuje maximální počet Hranye, které hráč nebo NP mohou získat za kolo.",
-        "name": "Max. Hrany za kolo"
+        "hint": "Definuje maximální počet Hrany, které hráč nebo NP mohou získat za kolo.",
+        "name": "Maximum Hrany za kolo"
       },
       "importToCompendium": {
         "hint": "Určuje, zda se importovaní NP mají přidávat jako aktéři, nebo jako záznamy do kompendia NP.",
@@ -1134,6 +1308,30 @@
       "bleeding": {
         "hint": "Toto pravidlo se používá k reprezentaci pokračujícího poškození z vážných zranění. (SWC s.145)",
         "name": "Krvácení"
+      },  
+      "hackSlashMatrix": {  
+        "hint": "Povolí zobrazení matrixových akcí z knihy pravidel Hack & Slash na kartách postav. (HS s.28)",  
+        "name": "Matrixové akce Hack & Slash"  
+      },  
+      "armorLessensDmg": {  
+        "hint": "Toto pravidlo se používá ke snížení množství utrpěného fyzického poškození. Při odolávání poškození (z jiných zdrojů než toxinů či stavových efektů) převeď za každých 8 plných bodů Hodnocení obrany jeden box fyzického poškození na omráčení. (SWC s.149)",  
+        "name": "Pancíř snižuje fyzické poškození"  
+      },  
+      "rollStrengthCombat": {  
+        "hint": "Útoky v boji nablízko se mohou házet Sílou namísto Obratnosti pro jakýkoliv útok beze zbraně, nebo pokud zbraň spoléhá na hmotnost a hybnost. Při použití tohoto pravidla přidej Obratnost k Hodnocení útoku namísto Síly. Pokud je to pro zbraň relevantní, musí být držena oběma rukama. (SWC s.150)",  
+        "name": "Hod Silou namísto Obratnosti v boji zblízka"  
+      },  
+      "highStrengthAddsDamage": {  
+        "hint": "Pokud máš Sílu alespoň 7, zvýší se tvé poškození v boji nablízko o 1. Pokud máš Sílu 10 a vyšší, zvýší se poškození o 2. Zbraně, které z vysoké Síly neprofitují, toto zvýšení nezískají. (SWC s.150)",  
+        "name": "Vysoká Síla zvyšuje poškození"  
+      },  
+      "highStrengthReducesRecoil": {  
+        "hint": "Pokud má útočník Sílu 7 a vyšší, jsou postihy k HÚ za režimy střelby sníženy o 1. Pokud má Sílu 10 a vyšší, tak o 2. Zbraň však musí být ovládána oběma rukama. (SWC s.150)",  
+        "name": "Vysoká Síla snižuje zpětný ráz"  
+      },  
+      "cantDodgeBullets": {  
+        "hint": "Jakýkoliv oponovaný hod proti útoku je nahrazen jednoduchým testem proti prahu, který je stanoven vzdáleností a velikostí obranného fondu cíle. Cíl útoku stále může proti útočníkovým kostkám použít posílení Hrany. (SWC s.151)",  
+        "name": "Kulkám neuhneš"  
       }
     },
     "sin" : {
@@ -1405,7 +1603,8 @@
         "Target_is_not_a_life_form": "Cíl není živá bytost.",
         "do_not_revert_damage": "Přetéká do fyzického záznamníku. Nevracej toto poškození zpět přes tlačítko v chatu, protože se to nevypočítá správně.",
         "No_actor_or_tokens_selected": "Zvol si svou hráčskou postavu, nebo vyber tokeny před hodem.",
-        "You_are_not_owner_of_the_tokens": "Nejsi vlastníkem vybraných tokenů."
+        "You_are_not_owner_of_the_tokens": "Nejsi vlastníkem vybraných tokenů.",
+        "no_weapon_skill_set": "Než hodíš kostkami, uprav zbraň a přiřaď k ní odpovídající dovednost."
       }
     },
     "EFFECT": {
