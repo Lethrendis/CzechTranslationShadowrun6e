@@ -3,8 +3,8 @@
 	"shadowrun6-eden.Shadowrun6ActorSheetNPC": "Hráčská postava",
   "SYSTEM": {
     "Sidebar": {
-      "readme": "README",
-      "bugs": "Report Bug",
+      "readme": "K přečtení",
+      "bugs": "Report chyb",
       "feature": "Požadavek na funkcionalitu"
     }
   },
@@ -135,7 +135,7 @@
       "activation_passive": "Pasivní",
       "cost": "Cena",
       "haslevel": "Má úroveň",
-      "pp": "PP",
+      "pp": "bS",
       "perLevel": "za úroveň"
     },
     "autosoft_types": {
@@ -357,7 +357,7 @@
         "PISTOLS_HEAVY": "Těžká pistole",
         "PISTOLS_LIGHT": "Lehká pistole",
         "PROJECTILES": "Projektilová zbraň",
-        "RFID": "RFID",
+        "RFID": "Značka RFID",
         "#RIFLES": "Puška",
         "RIFLE_ASSAULT": "Útočná puška",
         "RIFLE_HUNTING": "Lovecká puška",
@@ -645,10 +645,6 @@
           "name": "Kontrolovat zařízení",  
           "hint": "Převezmeš kontrolu nad zařízením, jako bys byl jeho vlastníkem. Do té doby, dokud jej dobrovolně neopustíš, nevypneš, nebo tě někdo jiný nevyřadí z kontroly."  
         },  
-        "disarm_data_bomb": {  
-          "name": "Odstranit datovou bombu",  
-          "hint": "Touto akcí můžeš zneškodnit datové bomby, které jsi odhalil pomocí ´matrixového vnímání´. Pokud nezískáš čisté úspěchy, datová bomba exploduje."  
-        },  
         "crack_file": {  
           "name": "Cracknout soubor",  
           "hint": "Tato akce zpřístupní šifrovaný soubor k přečtení."  
@@ -659,7 +655,11 @@
         },  
         "data_spike": {  
           "name": "Datový šíp",  
-          "hint": "Standardní útok pro způsobení matrixového poškození zařízení či personě."  
+          "hint": "Standardní útok pro způsobení matrixového poškození zařízení či personě."
+        },
+        "disarm_data_bomb": {  
+          "name": "Odstranit datovou bombu",  
+          "hint": "Touto akcí můžeš zneškodnit datové bomby, které jsi odhalil pomocí ´matrixového vnímání´. Pokud nezískáš čisté úspěchy, datová bomba exploduje."  
         },  
         "device_lock": {  
           "name": "Uzamčení zařízení",  
@@ -820,7 +820,9 @@
 		  "matrix": "Matrixový",
       "physical": "Fyzický",
       "stun": "Omráčení",
-      "overflow": "Přetečení"
+      "overflow": "Přetečení",
+      "dead": "MRTVOLA",
+      "broken": "VRAK"
     },
     "mortype": {
       "adept": "Adept",

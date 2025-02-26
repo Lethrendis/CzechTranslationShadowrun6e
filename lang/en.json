@@ -645,10 +645,6 @@
         "name": "Control Device",
         "hint": "Take control of a device as if you are the owner, until you leave the device willingly, shut it down or someone else pushes you out of control."
       },
-      "disarm_data_bomb": {
-        "name": "Disarm Data Bomb",
-        "hint": "With this, you can disarm Data Bombs that you detected with Matrix Perception. If you fail to achieve net hits, the Data Bomb blows up."
-      },
       "crack_file": {
         "name": "Crack File",
         "hint": "Make an encrypted file readable with this action."
@@ -660,6 +656,10 @@
       "data_spike": {
         "name": "Dataspike",
         "hint": "This is the standard attack for dealing Matrix damage to a device or persona."
+      },
+      "disarm_data_bomb": {
+        "name": "Disarm Data Bomb",
+        "hint": "With this, you can disarm Data Bombs that you detected with Matrix Perception. If you fail to achieve net hits, the Data Bomb blows up."
       },
       "device_lock": {
         "name": "Device Lock",
@@ -820,7 +820,9 @@
 		  "matrix": "Matrix",
       "physical": "Physical",
       "stun": "Stun",
-      "overflow": "Overflow"
+      "overflow": "Overflow",
+      "dead": "DEAD",
+      "broken": "BROKEN DOWN"
     },
     "mortype": {
       "adept": "Adept",
