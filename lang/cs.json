@@ -1046,10 +1046,10 @@
         "add_manually_to_target": "(Add manually) cíl",
         "gain_player": "{name} získává {value} body Hrany",
         "gain_player_capped": "{name} by získal {value} body Hrany, ale nemůže získat více než {capped}",
-        "getting": "Získávání Hrany",
+        "getting": "Získej Hranu",
         "no_gain": "Nikdo nezískává Hranu",
         "situational": "Situační Hrana",
-        "spending": "Utrácení Hrany"
+        "spending": "Utrať Hranu"
       },
       "edge_perform": "Udělej to",
       "edgegain": "Maximální zisk Hrany: ",
@@ -1567,9 +1567,9 @@
       "mode_label": "Režim",
       "mode": {
         "manual": "Manuální",
-        "riggedAR": "Připojené přes (AR)",
-        "riggedVR": "Připojené přes (VR)",
-        "rcc": "přes RKK (Nutno dodělat)",
+        "riggedAR": "Připojené přes AR",
+        "riggedVR": "Připojené přes VR",
+        "rcc": "Připojené přes RKK (Nutno dodělat)",
         "autonomous": "Autonomní"
       },
       "skill": {
