@@ -10,7 +10,7 @@ Tento modul poskytuje českou lokalizaci pro Shadowrun 6e verze 3.1.3. Obsahuje 
 Pro instalaci modulu obvyklým upůsobem můžeš použít následující odkaz ve Foundry VTT:
 
 ```
-https://github.com/Lethrendis/CzechTranslationShadowrun6e/module.json
+https://raw.githubusercontent.com/Lethrendis/CzechTranslationShadowrun6e/main/module.json
 ```
 
 ## Autor
